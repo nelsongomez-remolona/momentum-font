@@ -1,0 +1,54 @@
+{
+  "source": {
+    "basemap_imagery": "GEBCO web map service (wms.gebco.net), layer GEBCO_LATEST",
+    "depth_grid": "GEBCO_2020 grid via NOAA ERDDAP (coastwatch.pfeg.noaa.gov)",
+    "provenance": "GEBCO Type Identifier (TID) grid, queried per point via WMS GetFeatureInfo",
+    "earthquake": "USGS event us7000pcdl",
+    "generated": "2026-07-21"
+  },
+  "tid_codes": {
+    "10-17": "direct measurement (11 = multibeam sonar, 17 = combined direct)",
+    "40": "predicted from satellite-derived gravity (interpolated, not sounded)"
+  },
+  "point_provenance": [
+    {"feature": "Puerto Rico Trench deepest grid cell", "lat": 19.877, "lon": -65.244, "depth_m": -8555, "tid": 11, "class": "measured"},
+    {"feature": "Brownson Deep (Five Deeps site)", "lat": 19.714, "lon": -67.266, "depth_m": -8397, "tid": 11, "class": "measured"},
+    {"feature": "Cayman Trough deepest grid cell", "lat": 19.235, "lon": -79.456, "depth_m": -7323, "tid": 40, "class": "predicted"},
+    {"feature": "Max-relief window", "lat": 18.381, "lon": -83.944, "tid": 40, "class": "predicted"},
+    {"feature": "Beebe Vent Field", "lat": 18.546, "lon": -81.718, "depth_m": -5028, "tid": 11, "class": "measured"},
+    {"feature": "Von Damm Vent Field", "lat": 18.377, "lon": -81.798, "depth_m": -2437, "tid": 11, "class": "measured"},
+    {"feature": "2025 M7.6 epicenter seafloor", "lat": 17.651, "lon": -82.395, "tid": 40, "class": "predicted"}
+  ],
+  "puerto_rico_trench_axis": {
+    "points_sampled": 16, "measured": 16, "predicted": 0, "pct_predicted": 0,
+    "note": "Trench floor is fully multibeam-surveyed; the -8555 m cell is measured, not an interpolation artifact (this corrects an earlier assumption)."
+  },
+  "cayman_trough_axis": {
+    "points_sampled": 28, "measured": 19, "predicted": 9, "pct_predicted": 32,
+    "deepest_axis_cell_m": -7276, "deepest_axis_class": "predicted",
+    "trough_length_km": 347,
+    "note": "The deepest reported reach is satellite-predicted, not sounded; predicted bathymetry under-reads narrow trenches, so the true floor is probably deeper than the grid shows."
+  },
+  "texture_experiment": {
+    "question": "Can satellite-predicted seafloor be detected from depth texture alone (no TID)?",
+    "region": "Cayman box, 130 ocean samples",
+    "coarse_metric_5km_detrended_rms": {
+      "measured_median_m": 45.7, "predicted_median_m": 36.0, "ratio": 1.3,
+      "verdict": "weak; apparent 75% classifier accuracy was a base-rate artifact (73% of samples predicted)"
+    },
+    "cellscale_metric_laplacian_rms": {
+      "measured_median_m": 41.7, "predicted_median_m": 11.5, "ratio": 3.6,
+      "balanced_accuracy_pct": 76, "sensitivity_pct": 76, "specificity_pct": 75,
+      "verdict": "works; predicted seafloor is 3.6x smoother at the cell scale (below satellite gravity's ~6 km resolution), enabling ~76% blind classification"
+    }
+  },
+  "coverage_vs_depth": {
+    "note": "Non-monotonic; coverage follows survey effort, not depth. Overall ~73% of sampled Cayman seafloor is predicted, not sounded.",
+    "bands": [
+      {"range": "0.3-1 km (slope)", "n": 7, "measured_pct": 0},
+      {"range": "1-3 km", "n": 45, "measured_pct": 20},
+      {"range": "3-5 km", "n": 56, "measured_pct": 36},
+      {"range": "5 km+ (deeps)", "n": 22, "measured_pct": 27}
+    ]
+  }
+}
