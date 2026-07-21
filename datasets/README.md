@@ -1,7 +1,9 @@
 # Learning Datasets
 
 A curated collection of datasets that teach the most about the world, money, risk,
-health, and people. All files retrieved 2026-07-21.
+health, people, resources, geography, and science. All files retrieved 2026-07-21.
+
+Analysis scripts: `fun-numbers.py` (batch 1), `fun-numbers-2.py` (batch 2).
 
 ## owid/ — Our World in Data
 Source: https://ourworldindata.org/grapher/<slug>.csv
@@ -83,6 +85,62 @@ Source: https://github.com/fivethirtyeight/data
 - `bad-drivers.csv` — state-level collision/insurance data
 - `candy-data.csv` — Halloween candy matchup win rates
 - `bechdel-movies.csv` — 1,794 films: Bechdel test result, budget, gross
+
+---
+
+# Batch 2: resources, geography, science
+
+## owid-energy/ — OWID Energy Dataset
+- `owid-energy-data.csv` — every country since 1900: energy production/consumption
+  by source, electricity mix, per-capita figures.
+  Source: https://github.com/owid/energy-data
+
+## usgs-minerals/ — USGS Mineral Commodity Summaries 2025
+Source: ScienceBase item 677eaf95d34e760b392c4970 (official 2025 data release v2.0)
+
+- `world/MCS2025_World_Data.csv` — world mine production and reserves by
+  commodity and country, 2023–2024
+- `salient/` — per-commodity US salient statistics (production, imports,
+  price, net import reliance), ~85 commodities
+
+## faostat-crops/ — Crop yields (FAO data via OWID graphers)
+- `cereal-yield.csv` — cereal yield (t/ha) by country, 1961–
+- `key-crop-yields.csv` — yields for ~10 major crops by country, 1961–
+
+## water/ — Freshwater (AQUASTAT/OWID)
+- `annual-freshwater-withdrawals.csv` — total withdrawals by country (m³/yr)
+- `freshwater-use-by-sector.csv` — global freshwater use, 1901–
+
+## usgs-earthquakes/ — USGS Earthquake Catalog
+- `earthquakes-m6plus-1900-present.csv` — every recorded M6.0+ earthquake,
+  1900–present (time, location, depth, magnitude).
+  Source: https://earthquake.usgs.gov/fdsnws/event/1/
+
+## natural-earth/ — Natural Earth 110m vectors
+- `ne_110m_admin_0_countries.zip`, `ne_110m_populated_places.zip` — country
+  polygons and major cities (shapefiles, public domain).
+  Source: https://naciscdn.org/naturalearth/
+
+## geonames/ — GeoNames
+- `cities1000.zip` — all ~140k populated places with >1,000 people: name,
+  coordinates, elevation, population, country (tab-separated inside zip).
+  Source: https://download.geonames.org/export/dump/
+
+## population-demography/ — UN World Population Prospects (via OWID graphers)
+- `population.csv` — population by country, 10,000 BCE–2100 (projections)
+- `median-age.csv` — median age by country incl. UN projections
+- `fertility-rate.csv` — children per woman by country, 1800s–
+
+## noaa-co2/ — Keeling Curve (NOAA Global Monitoring Laboratory)
+- `co2_mm_mlo.csv` — monthly mean atmospheric CO₂ at Mauna Loa, 1958–
+- `co2_weekly_mlo.csv` — weekly means, 1974–
+  Source: https://gml.noaa.gov/ccgg/trends/
+
+## nasa-exoplanets/ — NASA Exoplanet Archive
+- `exoplanets.csv` — all confirmed exoplanets (pscomppars table): name, host
+  star, discovery method/year, orbital period, radius, mass, equilibrium temp,
+  stellar properties, distance.
+  Source: https://exoplanetarchive.ipac.caltech.edu/ (TAP query)
 
 ## Not retrievable from this environment
 - **CDC WONDER** interactive queries (POST-only API; the NCHS leading-causes file
