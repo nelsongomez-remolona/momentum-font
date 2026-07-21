@@ -1,0 +1,308 @@
+GSS 1972-2024 cumulative extract - variable/value labels (NORC release R3a)
+
+== year: GSS year for this respondent
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== id: Respondent ID number
+== age: Age of respondent
+   89: 89 or older
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== sex: Respondents sex
+   1: male
+   2: female
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== degree: R's highest degree
+   0: less than high school
+   1: high school
+   2: associate/junior college
+   3: bachelor's
+   4: graduate
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== happy: General happiness
+   1: very happy
+   2: pretty happy
+   3: not too happy
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== health: Condition of health
+   1: excellent
+   2: good
+   3: fair
+   4: poor
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== trust: Can people be trusted
+   1: most people can be trusted
+   2: can't be too careful
+   3: depends
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== fear: Afraid to walk at night in neighborhood
+   1: yes
+   2: no
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== satfin: Satisfaction with financial situation
+   1: pretty well satisfied
+   2: more or less satisfied
+   3: not satisfied at all
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== polviews: Think of self as liberal or conservative
+   1: extremely liberal
+   2: liberal
+   3: slightly liberal
+   4: moderate, middle of the road
+   5: slightly conservative
+   6: conservative
+   7: extremely conservative
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== partyid: Political party affiliation
+   0: strong democrat
+   1: not very strong democrat
+   2: independent, close to democrat
+   3: independent (neither, no response)
+   4: independent, close to republican
+   5: not very strong republican
+   6: strong republican
+   7: other party
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== grass: Should marijuana be made legal
+   1: should be legal
+   2: should not be legal
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== homosex: Homosexual sex relations
+   1: always wrong
+   2: almost always wrong
+   3: wrong only sometimes
+   4: not wrong at all
+   5: other
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== cappun: Favor or oppose death penalty for murder
+   1: favor
+   2: oppose
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== gunlaw: Favor or oppose gun permits
+   1: favor
+   2: oppose
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== attend: How often R attends religious services
+   0: never
+   1: less than once a year
+   2: about once or twice a year
+   3: several times a year
+   4: about once a month
+   5: 2-3 times a month
+   6: nearly every week
+   7: every week
+   8: several times a week
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== realinc: Family income in constant $
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== wtssall: Weight variable
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
+== wtssnrps: Person post-stratification weight, nonrespondents adjusted
+   2147483625: don't know
+   2147483630: iap
+   2147483631: I don't have a job
+   2147483634: dk, na, iap
+   2147483635: no answer
+   2147483637: not imputable
+   2147483639: refused
+   2147483640: skipped on web
+   2147483642: uncodeable
+   2147483645: not available in this release
+   2147483646: not available in this year
+   2147483647: see codebook
