@@ -13,6 +13,13 @@ peoples of the world.
 - **[Denisovan DNA](DENISOVAN_DNA.md)** — who the Denisovans were, how their
   genome was recovered, where their DNA survives in living people today, and
   what it did for us (high-altitude and immune adaptation).
+- **[Open Data Directory](OPEN_DATA.md)** — curated, mostly-free datasets:
+  bathymetry, archaic and modern human genomes, and variant/allele-frequency
+  resources, with open vs. controlled access flagged.
+- **[Allele-Frequency Analysis](analysis/ALLELE_FREQUENCY_ANALYSIS.md)** — a
+  hands-on analysis of real data downloaded from the Ensembl REST API (1000
+  Genomes), mapping trait/ancestry gene variants across populations, with a
+  reproducible script.
 
 ## Sources & method
 

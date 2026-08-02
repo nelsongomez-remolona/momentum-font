@@ -1,0 +1,7 @@
+rsID,gene,trait,highlight_allele,KHV (Vietnamese),CDX (Dai),CHB (Han),JPT (Japanese),EAS (E Asian),SAS (S Asian),EUR (European),AFR (African),PEL (Peruvian),note
+rs671,ALDH2,Alcohol-flush ('Asian glow'),A,0.136,0.043,0.16,0.24,0.174,0.0,0.0,0.002,0.006,A = deficient enzyme -> flushing
+rs1229984,ADH1B,Fast alcohol metabolism (His48Arg),A,0.646,0.634,0.709,0.731,0.697,0.02,0.029,0.002,0.012,A = fast first-step metabolism
+rs3827760,EDAR,Thick straight hair / shovel teeth,G,0.823,0.898,0.937,0.803,0.873,0.013,0.011,0.003,0.759,G = derived V370A (East Asian)
+rs17822931,ABCC11,Dry earwax / less body odor,T,0.636,0.538,0.971,0.88,0.78,0.482,0.136,0.012,0.271,T = dry earwax (derived)
+rs4988235,LCT/MCM6,Lactase persistence (drink milk),T,0.0,0.0,0.0,0.0,0.0,0.113,0.508,0.027,0.106,T = keep digesting lactose as adult
+rs1815739,ACTN3,R577X 'sprint gene' (X=stop),T,0.409,0.505,0.422,0.486,0.443,0.587,0.434,0.115,0.753,T = X = nonfunctional alpha-actinin-3
