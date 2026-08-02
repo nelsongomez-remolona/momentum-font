@@ -1,0 +1,8 @@
+species_id,common_name,genus,species
+ADPE,adelie penguin,Pygoscelis,adeliae
+CHPE,chinstrap penguin,Pygoscelis,antarctica
+EMPE,emperor penguin,Aptenodytes,forsteri
+GEPE,gentoo penguin,Pygoscelis,papua
+KIPE,king penguin,Aptenodytes,patagonicus
+MCPE,macaroni penguin,Eudyptes,chrysolophus
+UNPE,unknown penguin,,
