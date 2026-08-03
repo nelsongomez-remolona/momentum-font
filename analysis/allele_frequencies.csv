@@ -1,7 +1,14 @@
-rsID,gene,trait,highlight_allele,KHV (Vietnamese),CDX (Dai),CHB (Han),JPT (Japanese),EAS (E Asian),SAS (S Asian),EUR (European),AFR (African),PEL (Peruvian),note
-rs671,ALDH2,Alcohol-flush ('Asian glow'),A,0.136,0.043,0.16,0.24,0.174,0.0,0.0,0.002,0.006,A = deficient enzyme -> flushing
-rs1229984,ADH1B,Fast alcohol metabolism (His48Arg),A,0.646,0.634,0.709,0.731,0.697,0.02,0.029,0.002,0.012,A = fast first-step metabolism
-rs3827760,EDAR,Thick straight hair / shovel teeth,G,0.823,0.898,0.937,0.803,0.873,0.013,0.011,0.003,0.759,G = derived V370A (East Asian)
-rs17822931,ABCC11,Dry earwax / less body odor,T,0.636,0.538,0.971,0.88,0.78,0.482,0.136,0.012,0.271,T = dry earwax (derived)
-rs4988235,LCT/MCM6,Lactase persistence (drink milk),T,0.0,0.0,0.0,0.0,0.0,0.113,0.508,0.027,0.106,T = keep digesting lactose as adult
-rs1815739,ACTN3,R577X 'sprint gene' (X=stop),T,0.409,0.505,0.422,0.486,0.443,0.587,0.434,0.115,0.753,T = X = nonfunctional alpha-actinin-3
+category,rsID,gene,trait,highlight_allele,KHV (Viet~Fil),CDX (Dai~Fil),CHB (Han),JPT (Japan),EAS,SAS,EUR,AFR,YRI (Nigeria),PEL (Peru),note
+Diet,rs4988235,LCT/MCM6,Lactase persistence (drink milk),T,0.0,0.0,0.0,0.0,0.0,0.113,0.508,0.027,0.0,0.106,T = keep digesting lactose as adult (European variant)
+Diet,rs671,ALDH2,Alcohol flush ('Asian glow'),A,0.136,0.043,0.16,0.24,0.174,0.0,0.0,0.002,0.0,0.006,A = deficient enzyme -> flushing
+Diet,rs1229984,ADH1B,Fast alcohol metabolism,A,0.646,0.634,0.709,0.731,0.697,0.02,0.029,0.002,0.0,0.012,A = fast first-step metabolism
+Diet,rs174546,FADS1,Fatty-acid (PUFA) metabolism,T,0.818,0.78,0.354,0.327,0.566,0.137,0.347,0.022,0.009,0.806,shown allele = one FADS1 diet-adaptation variant
+Pigment,rs1426654,SLC24A5,Light skin (West Eurasian),A,0.005,0.0,0.029,0.005,0.012,0.685,0.997,0.074,0.014,0.282,A = derived light-skin allele
+Pigment,rs16891982,SLC45A2,Light skin (European),G,0.01,0.0,0.015,0.0,0.006,0.059,0.938,0.036,0.0,0.159,G = derived light-skin allele
+Pigment,rs12913832,HERC2/OCA2,Blue eyes,G,0.0,0.0,0.0,0.0,0.002,0.071,0.636,0.028,0.0,0.112,G = derived blue-eye allele
+Morphology,rs3827760,EDAR,Thick straight hair / shovel teeth,G,0.823,0.898,0.937,0.803,0.873,0.013,0.011,0.003,0.0,0.759,G = derived V370A (East Asian)
+Morphology,rs17822931,ABCC11,Dry earwax / less body odor,T,0.636,0.538,0.971,0.88,0.78,0.482,0.136,0.012,0.0,0.271,T = dry earwax (derived)
+Disease,rs334,HBB,Sickle-cell (malaria resistance),A,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.139,0.0,A = HbS sickle allele
+Disease,rs2814778,ACKR1,Duffy-null (vivax-malaria resist.),C,0.0,0.0,0.0,0.0,0.0,0.0,0.006,0.964,0.995,0.041,C = Duffy-negative
+Disease,rs73885319,APOL1,APOL1 G1 (trypanosome resist.),G,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.259,0.375,0.0,G = African-specific G1 risk allele
+Physical,rs1815739,ACTN3,R577X 'sprint gene' (X=stop),T,0.409,0.505,0.422,0.486,0.443,0.587,0.434,0.115,0.088,0.753,T = X = nonfunctional alpha-actinin-3

@@ -2,10 +2,12 @@
 
 *A hands-on analysis using **real downloaded data** — not textbook numbers.
 Population allele frequencies were pulled live from the **Ensembl REST API**
-(1000 Genomes Project, phase 3) for the specific genes discussed in this
-repo's research thread, then tabulated and visualized.*
+(1000 Genomes Project, phase 3) for a panel of trait/ancestry genes spanning
+diet, pigmentation, morphology, disease, and physical performance, then
+tabulated and visualized.*
 
-Run 2 August 2026. Reproducible via `analysis/fetch_freqs.py`.
+Run 3 August 2026 · **13 SNPs × 10 populations** · reproducible via
+`analysis/fetch_freqs.py`.
 
 ![Allele frequency heatmap](allele_frequencies.svg)
 
@@ -13,88 +15,86 @@ Run 2 August 2026. Reproducible via `analysis/fetch_freqs.py`.
 
 ## What was done
 
-1. Queried `rest.ensembl.org/variation/human/<rsID>?pops=1` for 6 SNPs.
+1. Queried `rest.ensembl.org/variation/human/<rsID>?pops=1` for 13 SNPs.
 2. Extracted 1000 Genomes phase-3 frequencies of the trait-relevant
-   ("highlight") allele for 9 populations, correcting for strand and
+   ("highlight") allele for 10 populations, correcting for strand and
    distinguishing *absent* (0%) from *not-genotyped* (n/a).
 3. Saved tidy data (`allele_frequencies.csv`), raw API responses
-   (`raw_variation.json`), and a self-contained heatmap
+   (`raw_variation.json`), and a categorized heatmap
    (`allele_frequencies.svg`).
 
-**Important limitation up front:** 1000 Genomes contains **no Filipino
-sample.** The nearest available proxies are **KHV (Kinh Vietnamese)** and
-**CDX (Dai, southern China)** — both Southeast Asian, both carrying the
-Austronesian-adjacent ancestry that dominates lowland Filipino genomes, but
-neither is Filipino. Treat them as *directional*, not exact.
+**Limitation up front:** 1000 Genomes has **no Filipino sample.** The nearest
+proxies are **KHV (Kinh Vietnamese)** and **CDX (Dai, southern China)** — both
+Southeast Asian, carrying the Austronesian-adjacent ancestry that dominates
+lowland Filipino genomes, but neither is Filipino. Treat as *directional*.
 
 ## The data
 
 Frequency (%) of the highlighted allele, 1000 Genomes phase 3:
 
-| Gene | Allele | Trait | KHV (Viet) | CDX (Dai) | CHB (Han) | JPT (Jpn) | EAS | SAS | EUR | AFR | PEL (Peru) |
-|---|---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| **ALDH2** | A | Alcohol flush | 13.6 | 4.3 | 16.0 | 24.0 | 17.4 | 0.0 | 0.0 | 0.2 | 0.6 |
-| **ADH1B** | A | Fast alcohol metabolism | 64.6 | 63.4 | 70.9 | 73.1 | 69.7 | 2.0 | 2.9 | 0.2 | 1.2 |
-| **EDAR** | G | Thick hair / shovel teeth | 82.3 | 89.8 | 93.7 | 80.3 | 87.3 | 1.3 | 1.1 | 0.3 | 75.9 |
-| **ABCC11** | T | Dry earwax / less odor | 63.6 | 53.8 | 97.1 | 88.0 | 78.0 | 48.2 | 13.6 | 1.2 | 27.1 |
-| **LCT/MCM6** | T | Lactase persistence | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 11.3 | 50.8 | 2.7 | 10.6 |
-| **ACTN3** | T | R577X "sprint gene" (X=stop) | 40.9 | 50.5 | 42.2 | 48.6 | 44.3 | 58.7 | 43.4 | 11.5 | 75.3 |
+| Cat | Gene | Allele | Trait | KHV | CDX | CHB | JPT | EAS | SAS | EUR | AFR | YRI | PEL |
+|---|---|---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| Diet | **LCT/MCM6** | T | Lactase persistence | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 11.3 | 50.8 | 2.7 | 0.0 | 10.6 |
+| Diet | **ALDH2** | A | Alcohol flush | 13.6 | 4.3 | 16.0 | 24.0 | 17.4 | 0.0 | 0.0 | 0.2 | 0.0 | 0.6 |
+| Diet | **ADH1B** | A | Fast alcohol metabolism | 64.6 | 63.4 | 70.9 | 73.1 | 69.7 | 2.0 | 2.9 | 0.2 | 0.0 | 1.2 |
+| Diet | **FADS1** | T | Fatty-acid (PUFA) metabolism | 81.8 | 78.0 | 35.4 | 32.7 | 56.6 | 13.7 | 34.7 | 2.2 | 0.9 | 80.6 |
+| Pigment | **SLC24A5** | A | Light skin (West Eurasian) | 0.5 | 0.0 | 2.9 | 0.5 | 1.2 | 68.5 | 99.7 | 7.4 | 1.4 | 28.2 |
+| Pigment | **SLC45A2** | G | Light skin (European) | 1.0 | 0.0 | 1.5 | 0.0 | 0.6 | 5.9 | 93.8 | 3.6 | 0.0 | 15.9 |
+| Pigment | **HERC2/OCA2** | G | Blue eyes | 0.0 | 0.0 | 0.0 | 0.0 | 0.2 | 7.1 | 63.6 | 2.8 | 0.0 | 11.2 |
+| Morphology | **EDAR** | G | Thick hair / shovel teeth | 82.3 | 89.8 | 93.7 | 80.3 | 87.3 | 1.3 | 1.1 | 0.3 | 0.0 | 75.9 |
+| Morphology | **ABCC11** | T | Dry earwax / less odor | 63.6 | 53.8 | 97.1 | 88.0 | 78.0 | 48.2 | 13.6 | 1.2 | 0.0 | 27.1 |
+| Disease | **HBB** | A | Sickle-cell (malaria) | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 10.0 | 13.9 | 0.0 |
+| Disease | **ACKR1** | C | Duffy-null (vivax malaria) | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.6 | 96.4 | 99.5 | 4.1 |
+| Disease | **APOL1** | G | APOL1 G1 (trypanosome) | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 25.9 | 37.5 | 0.0 |
+| Physical | **ACTN3** | T | R577X "sprint gene" (X=stop) | 40.9 | 50.5 | 42.2 | 48.6 | 44.3 | 58.7 | 43.4 | 11.5 | 8.8 | 75.3 |
 
-## What the data shows
+## Key findings
 
-**1. Your lactose intolerance is right there in the numbers.**
-The lactase-persistence allele (LCT/MCM6) is **literally 0.0% in every East
-Asian population** sampled — Vietnamese, Dai, Han, Japanese — versus **50.8%
-in Europeans.** This is the cleanest signal in the whole table, and it
-matches exactly what you told me: adult lactose intolerance is the East/SE
-Asian *default*, and the milk-drinking mutation is the European oddity. The
-data confirms your lived experience.
+**1. Your lactose intolerance is literally 0.0%.** The lactase-persistence
+allele is absent from every East Asian population sampled, vs. 50.8% in
+Europeans — matching your lived experience exactly.
 
-**2. The East Asian / Austronesian "trait cluster" is strong in the Filipino
-proxies.** In KHV and CDX (closest to Filipino):
-- **EDAR** (thick straight hair, shovel-shaped incisors): **82–90%**, versus
-  ~1% in Europeans, South Asians, and Africans. Near-defining.
-- **ADH1B** fast alcohol metabolism: **~64%**, versus ~3% elsewhere.
-- **ABCC11** dry earwax / reduced body odor: **54–64%** (and up to 97% in
-  Han), versus 14% EUR and ~1% AFR.
-These are the genetic fingerprints of the Austronesian ancestry layer we
-discussed — and they're common in the populations nearest to yours.
+**2. The Austronesian / East-Asian trait cluster** (EDAR 82–90%, ADH1B ~64%,
+ABCC11 54–64% in the Filipino proxies) is strong and near-absent elsewhere.
 
-**3. "Asian glow" (ALDH2) is real but milder in the SE-Asian proxies.**
-The alcohol-flush allele runs **17% across East Asians** but is highest in
-Japanese (24%) and Han (16%) and *lower* in the SE-Asian-adjacent CDX (4%) /
-KHV (14%). Consistent with what I said earlier: flush is common in East Asia
-but tends to be **less frequent toward island/SE Asia** — so a Filipino is
-somewhat less likely to flush than a Han or Japanese person, though far more
-likely than a European (0%).
+**3. "Asian glow" fades toward SE Asia.** ALDH2 flush is 24% in Japanese but
+just 4.3% in Dai — the population nearest to Filipino sits at the low end.
 
-**4. A bonus finding — the Asia→Americas connection lights up.**
-Look at the **PEL (Peruvian)** column: EDAR **76%** and ACTN3-X **75%**,
-tracking the East Asian pattern, because Indigenous Americans descend from
-the same ancient East Eurasian population. The data quietly re-tells the
-peopling of the Americas — the same migration story that runs through your
-own ancestry.
+**4. FADS1 (new) splits East Asia in two.** The shown fatty-acid-metabolism
+allele is **~80% in the Filipino proxies (KHV/CDX) and Peru**, but only
+~33–35% in Han/Japanese — the SE-Asian proxies group with the Americas, not
+with Northeast Asia. Diet-adaptation genes cut across the "East Asian" label.
 
-**5. The "sprint gene" honesty check.** ACTN3 is the flattest row: the
-nonfunctional X allele sits at 40–59% across Eurasians (your proxies ~41–51%)
-— i.e., **hugely common and non-distinctive.** The one dramatic outlier is
-**AFR at 11.5%** (Africans overwhelmingly keep the functional "R" sprint
-allele). That's a real, replicated frequency difference — *and* it's the gene
-we flagged earlier as having a **tiny effect size** (~1% of sprint variance).
-So it's a perfect illustration of the whole thread's lesson: a striking
-frequency gap that still explains almost nothing about who actually becomes
-an athlete.
+**5. Pigmentation is the cleanest ancestry story — and the best proof "race"
+isn't one gene.** Light skin via **SLC24A5 (99.7% EUR)** and **SLC45A2 (93.8%
+EUR)** and blue eyes via **HERC2 (63.6% EUR)** are essentially West-Eurasian.
+Yet East Asians — also light-skinned — carry these at **~1%**: they evolved
+light skin through *different* genes. Same trait, separate genetic routes.
+
+**6. Malaria/disease genes are sharply African** — Duffy-null **96–99%**
+(the sharpest single-allele divide in the whole panel), sickle-cell 10–14%,
+APOL1-G1 26–38% — all ~0% elsewhere. These are local pathogen adaptations,
+not general "racial" differences.
+
+**7. The Americas connection recurs.** PEL tracks East Asian ancestry (EDAR
+76%) but pushes some alleles to extremes via drift (ACTN3-X **75%**, the
+highest anywhere).
+
+**8. Honesty check holds.** ACTN3 (the "sprint gene") remains the flattest,
+least-distinctive row across Eurasia — the gene with a ~1% effect size on
+performance. Big frequency gaps, tiny real-world meaning.
 
 ## Caveats
 
-- **Proxies, not Filipinos.** KHV/CDX approximate the Austronesian layer but
-  miss the deep Negrito/Denisovan component that makes Filipino ancestry
-  distinctive. The Larena 2021 Ayta genomes (controlled-access) would be
-  needed for that.
-- **Allele frequency ≠ phenotype.** Carrying an allele is a probability, not
-  a guarantee; most traits are polygenic and environment-shaped.
-- **Not medical advice.** For anything actionable (e.g., G6PD, drug
-  response), see a clinician and a validated test.
+- **Proxies, not Filipinos.** KHV/CDX miss the deep Negrito/Denisovan layer
+  (needs the controlled-access Ayta genomes).
+- **No highland/Oceanian samples in 1000G**, so the Tibetan-EPAS1 and
+  Papuan/Ayta-Denisovan stories can't be shown here — flagged rather than
+  faked.
+- **Allele frequency ≠ phenotype**; most traits are polygenic. Not medical
+  advice.
+- **Ascertainment bias:** some markers (e.g. the European lactase SNP) were
+  discovered in Europeans and undercount adaptations elsewhere.
 
 ## Reproduce it
 
