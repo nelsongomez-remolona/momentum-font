@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1056" height="754" font-family="system-ui,Arial,sans-serif">
-<rect width="1056" height="754" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1056" height="1006" font-family="system-ui,Arial,sans-serif">
+<rect width="1056" height="1006" fill="white"/>
 <text x="18" y="32" font-size="22" font-weight="700" fill="#12303a">Human trait &amp; ancestry allele frequencies</text>
-<text x="18" y="56" font-size="13" fill="#5a6b72">Real data: Ensembl REST API / 1000 Genomes phase 3 &#183; 13 SNPs &#215; 10 populations &#183; % carrying the highlighted allele</text>
+<text x="18" y="56" font-size="13" fill="#5a6b72">Real data: Ensembl REST API / 1000 Genomes phase 3 &#183; 19 SNPs &#215; 10 populations &#183; % carrying the highlighted allele</text>
 <text x="18" y="76" font-size="12" fill="#8a4b0a">No Filipino sample exists in 1000 Genomes &#8212; KHV (Vietnamese) &amp; CDX (Dai) are the nearest proxies (two leftmost columns).</text>
 <text x="335.0" y="84" font-size="12" font-weight="700" text-anchor="middle" fill="#0a5160">KHV</text>
 <text x="335.0" y="99" font-size="9.5" text-anchor="middle" fill="#6b7b82">(Viet~Fil)</text>
@@ -21,18 +21,27 @@
 <text x="1001.0" y="99" font-size="9.5" text-anchor="middle" fill="#6b7b82">(Peru)</text>
 <rect x="22" y="118" width="5" height="164" rx="2" fill="#c9772a"/>
 <text x="16" y="200.0" font-size="12" font-weight="700" fill="#c9772a" text-anchor="middle" transform="rotate(-90 16 200.0)">Diet</text>
-<rect x="22" y="286" width="5" height="122" rx="2" fill="#7a5bb0"/>
-<text x="16" y="347.0" font-size="12" font-weight="700" fill="#7a5bb0" text-anchor="middle" transform="rotate(-90 16 347.0)">Pigment</text>
+<rect x="22" y="286" width="5" height="164" rx="2" fill="#7a5bb0"/>
+<text x="16" y="368.0" font-size="12" font-weight="700" fill="#7a5bb0" text-anchor="middle" transform="rotate(-90 16 368.0)">Pigment</text>
 <line x1="30" y1="284" x2="1046" y2="284" stroke="#e3eaec" stroke-width="1.5"/>
-<rect x="22" y="412" width="5" height="80" rx="2" fill="#2a8ca8"/>
-<text x="16" y="452.0" font-size="12" font-weight="700" fill="#2a8ca8" text-anchor="middle" transform="rotate(-90 16 452.0)">Morphology</text>
-<line x1="30" y1="410" x2="1046" y2="410" stroke="#e3eaec" stroke-width="1.5"/>
-<rect x="22" y="496" width="5" height="122" rx="2" fill="#c0453f"/>
-<text x="16" y="557.0" font-size="12" font-weight="700" fill="#c0453f" text-anchor="middle" transform="rotate(-90 16 557.0)">Disease</text>
-<line x1="30" y1="494" x2="1046" y2="494" stroke="#e3eaec" stroke-width="1.5"/>
-<rect x="22" y="622" width="5" height="38" rx="2" fill="#3f8f5a"/>
-<text x="16" y="641.0" font-size="12" font-weight="700" fill="#3f8f5a" text-anchor="middle" transform="rotate(-90 16 641.0)">Physical</text>
+<rect x="22" y="454" width="5" height="80" rx="2" fill="#2a8ca8"/>
+<text x="16" y="494.0" font-size="12" font-weight="700" fill="#2a8ca8" text-anchor="middle" transform="rotate(-90 16 494.0)">Morphology</text>
+<line x1="30" y1="452" x2="1046" y2="452" stroke="#e3eaec" stroke-width="1.5"/>
+<rect x="22" y="538" width="5" height="38" rx="2" fill="#b8892b"/>
+<text x="16" y="557.0" font-size="12" font-weight="700" fill="#b8892b" text-anchor="middle" transform="rotate(-90 16 557.0)">Sensory</text>
+<line x1="30" y1="536" x2="1046" y2="536" stroke="#e3eaec" stroke-width="1.5"/>
+<rect x="22" y="580" width="5" height="38" rx="2" fill="#3f8f5a"/>
+<text x="16" y="599.0" font-size="12" font-weight="700" fill="#3f8f5a" text-anchor="middle" transform="rotate(-90 16 599.0)">Physical</text>
+<line x1="30" y1="578" x2="1046" y2="578" stroke="#e3eaec" stroke-width="1.5"/>
+<rect x="22" y="622" width="5" height="38" rx="2" fill="#4a6fa5"/>
+<text x="16" y="641.0" font-size="12" font-weight="700" fill="#4a6fa5" text-anchor="middle" transform="rotate(-90 16 641.0)">Pharma</text>
 <line x1="30" y1="620" x2="1046" y2="620" stroke="#e3eaec" stroke-width="1.5"/>
+<rect x="22" y="664" width="5" height="38" rx="2" fill="#9a5b7a"/>
+<text x="16" y="683.0" font-size="12" font-weight="700" fill="#9a5b7a" text-anchor="middle" transform="rotate(-90 16 683.0)">Health</text>
+<line x1="30" y1="662" x2="1046" y2="662" stroke="#e3eaec" stroke-width="1.5"/>
+<rect x="22" y="706" width="5" height="206" rx="2" fill="#c0453f"/>
+<text x="16" y="809.0" font-size="12" font-weight="700" fill="#c0453f" text-anchor="middle" transform="rotate(-90 16 809.0)">Disease</text>
+<line x1="30" y1="704" x2="1046" y2="704" stroke="#e3eaec" stroke-width="1.5"/>
 <text x="34" y="135.0" font-size="13" font-weight="700" fill="#12303a">LCT/MCM6</text>
 <text x="34" y="151.0" font-size="10" fill="#6b7b82">Lactase persistence (drink milk)</text>
 <text x="288" y="142.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">T</text>
@@ -194,157 +203,295 @@
 <text x="927.0" y="394.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
 <rect x="966" y="370" width="70" height="38" rx="4" fill="rgb(212,227,230)"/>
 <text x="1001.0" y="394.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">11%</text>
-<text x="34" y="429.0" font-size="13" font-weight="700" fill="#12303a">EDAR</text>
-<text x="34" y="445.0" font-size="10" fill="#6b7b82">Thick straight hair / shovel teeth</text>
-<text x="288" y="436.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">G</text>
-<rect x="300" y="412" width="70" height="38" rx="4" fill="rgb(50,110,122)"/>
-<text x="335.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">82%</text>
-<rect x="374" y="412" width="70" height="38" rx="4" fill="rgb(33,97,111)"/>
-<text x="409.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">90%</text>
-<rect x="448" y="412" width="70" height="38" rx="4" fill="rgb(24,91,105)"/>
-<text x="483.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">94%</text>
-<rect x="522" y="412" width="70" height="38" rx="4" fill="rgb(54,113,125)"/>
-<text x="557.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">80%</text>
-<rect x="596" y="412" width="70" height="38" rx="4" fill="rgb(38,101,115)"/>
-<text x="631.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">87%</text>
-<rect x="670" y="412" width="70" height="38" rx="4" fill="rgb(235,243,246)"/>
-<text x="705.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">1%</text>
-<rect x="744" y="412" width="70" height="38" rx="4" fill="rgb(235,244,246)"/>
-<text x="779.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">1%</text>
+<text x="34" y="429.0" font-size="13" font-weight="700" fill="#12303a">OCA2</text>
+<text x="34" y="445.0" font-size="10" fill="#6b7b82">Light skin (EAST-Asian route)</text>
+<text x="288" y="436.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">C</text>
+<rect x="300" y="412" width="70" height="38" rx="4" fill="rgb(103,148,158)"/>
+<text x="335.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">59%</text>
+<rect x="374" y="412" width="70" height="38" rx="4" fill="rgb(95,143,153)"/>
+<text x="409.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">62%</text>
+<rect x="448" y="412" width="70" height="38" rx="4" fill="rgb(103,148,158)"/>
+<text x="483.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">59%</text>
+<rect x="522" y="412" width="70" height="38" rx="4" fill="rgb(107,151,161)"/>
+<text x="557.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">57%</text>
+<rect x="596" y="412" width="70" height="38" rx="4" fill="rgb(102,147,157)"/>
+<text x="631.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">60%</text>
+<rect x="670" y="412" width="70" height="38" rx="4" fill="rgb(237,245,247)"/>
+<text x="705.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="744" y="412" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="779.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
 <rect x="818" y="412" width="70" height="38" rx="4" fill="rgb(237,245,247)"/>
 <text x="853.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
 <rect x="892" y="412" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
 <text x="927.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="966" y="412" width="70" height="38" rx="4" fill="rgb(64,120,132)"/>
-<text x="1001.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">76%</text>
-<text x="34" y="471.0" font-size="13" font-weight="700" fill="#12303a">ABCC11</text>
-<text x="34" y="487.0" font-size="10" fill="#6b7b82">Dry earwax / less body odor</text>
-<text x="288" y="478.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">T</text>
-<rect x="300" y="454" width="70" height="38" rx="4" fill="rgb(92,141,151)"/>
-<text x="335.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">64%</text>
-<rect x="374" y="454" width="70" height="38" rx="4" fill="rgb(115,157,166)"/>
-<text x="409.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">54%</text>
-<rect x="448" y="454" width="70" height="38" rx="4" fill="rgb(16,85,100)"/>
-<text x="483.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">97%</text>
-<rect x="522" y="454" width="70" height="38" rx="4" fill="rgb(37,100,114)"/>
-<text x="557.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">88%</text>
-<rect x="596" y="454" width="70" height="38" rx="4" fill="rgb(60,117,129)"/>
-<text x="631.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">78%</text>
-<rect x="670" y="454" width="70" height="38" rx="4" fill="rgb(128,166,174)"/>
-<text x="705.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">48%</text>
-<rect x="744" y="454" width="70" height="38" rx="4" fill="rgb(206,223,227)"/>
-<text x="779.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">14%</text>
-<rect x="818" y="454" width="70" height="38" rx="4" fill="rgb(235,244,246)"/>
-<text x="853.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">1%</text>
+<rect x="966" y="412" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="1001.0" y="436.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<text x="34" y="471.0" font-size="13" font-weight="700" fill="#12303a">EDAR</text>
+<text x="34" y="487.0" font-size="10" fill="#6b7b82">Thick straight hair / shovel teeth</text>
+<text x="288" y="478.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">G</text>
+<rect x="300" y="454" width="70" height="38" rx="4" fill="rgb(50,110,122)"/>
+<text x="335.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">82%</text>
+<rect x="374" y="454" width="70" height="38" rx="4" fill="rgb(33,97,111)"/>
+<text x="409.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">90%</text>
+<rect x="448" y="454" width="70" height="38" rx="4" fill="rgb(24,91,105)"/>
+<text x="483.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">94%</text>
+<rect x="522" y="454" width="70" height="38" rx="4" fill="rgb(54,113,125)"/>
+<text x="557.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">80%</text>
+<rect x="596" y="454" width="70" height="38" rx="4" fill="rgb(38,101,115)"/>
+<text x="631.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">87%</text>
+<rect x="670" y="454" width="70" height="38" rx="4" fill="rgb(235,243,246)"/>
+<text x="705.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">1%</text>
+<rect x="744" y="454" width="70" height="38" rx="4" fill="rgb(235,244,246)"/>
+<text x="779.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">1%</text>
+<rect x="818" y="454" width="70" height="38" rx="4" fill="rgb(237,245,247)"/>
+<text x="853.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
 <rect x="892" y="454" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
 <text x="927.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="966" y="454" width="70" height="38" rx="4" fill="rgb(176,201,206)"/>
-<text x="1001.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">27%</text>
-<text x="34" y="513.0" font-size="13" font-weight="700" fill="#12303a">HBB</text>
-<text x="34" y="529.0" font-size="10" fill="#6b7b82">Sickle-cell (malaria resistance)</text>
-<text x="288" y="520.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">A</text>
-<rect x="300" y="496" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="335.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="374" y="496" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="409.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="448" y="496" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="483.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="522" y="496" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="557.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="596" y="496" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="631.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="670" y="496" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="705.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="744" y="496" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="779.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="818" y="496" width="70" height="38" rx="4" fill="rgb(215,229,232)"/>
-<text x="853.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">10%</text>
-<rect x="892" y="496" width="70" height="38" rx="4" fill="rgb(206,223,226)"/>
-<text x="927.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">14%</text>
-<rect x="966" y="496" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="1001.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<text x="34" y="555.0" font-size="13" font-weight="700" fill="#12303a">ACKR1</text>
-<text x="34" y="571.0" font-size="10" fill="#6b7b82">Duffy-null (vivax-malaria resist.)</text>
-<text x="288" y="562.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">C</text>
-<rect x="300" y="538" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="335.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="374" y="538" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="409.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="448" y="538" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="483.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="522" y="538" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="557.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="596" y="538" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="631.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="670" y="538" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="705.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="744" y="538" width="70" height="38" rx="4" fill="rgb(236,245,247)"/>
-<text x="779.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">1%</text>
-<rect x="818" y="538" width="70" height="38" rx="4" fill="rgb(18,86,101)"/>
-<text x="853.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">96%</text>
-<rect x="892" y="538" width="70" height="38" rx="4" fill="rgb(11,81,96)"/>
-<text x="927.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">100%</text>
-<rect x="966" y="538" width="70" height="38" rx="4" fill="rgb(228,239,241)"/>
-<text x="1001.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">4%</text>
-<text x="34" y="597.0" font-size="13" font-weight="700" fill="#12303a">APOL1</text>
-<text x="34" y="613.0" font-size="10" fill="#6b7b82">APOL1 G1 (trypanosome resist.)</text>
-<text x="288" y="604.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">G</text>
-<rect x="300" y="580" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="335.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="374" y="580" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="409.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="448" y="580" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="483.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="522" y="580" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="557.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="596" y="580" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="631.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="670" y="580" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="705.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="744" y="580" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="779.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<rect x="818" y="580" width="70" height="38" rx="4" fill="rgb(178,203,208)"/>
-<text x="853.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">26%</text>
-<rect x="892" y="580" width="70" height="38" rx="4" fill="rgb(152,184,191)"/>
-<text x="927.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">38%</text>
-<rect x="966" y="580" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
-<text x="1001.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
-<text x="34" y="639.0" font-size="13" font-weight="700" fill="#12303a">ACTN3</text>
-<text x="34" y="655.0" font-size="10" fill="#6b7b82">R577X 'sprint gene' (X=stop)</text>
-<text x="288" y="646.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">T</text>
-<rect x="300" y="622" width="70" height="38" rx="4" fill="rgb(144,178,185)"/>
-<text x="335.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">41%</text>
-<rect x="374" y="622" width="70" height="38" rx="4" fill="rgb(122,162,171)"/>
-<text x="409.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">50%</text>
-<rect x="448" y="622" width="70" height="38" rx="4" fill="rgb(141,176,183)"/>
-<text x="483.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">42%</text>
-<rect x="522" y="622" width="70" height="38" rx="4" fill="rgb(127,165,174)"/>
-<text x="557.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">49%</text>
-<rect x="596" y="622" width="70" height="38" rx="4" fill="rgb(136,172,180)"/>
-<text x="631.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">44%</text>
-<rect x="670" y="622" width="70" height="38" rx="4" fill="rgb(104,149,158)"/>
-<text x="705.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">59%</text>
-<rect x="744" y="622" width="70" height="38" rx="4" fill="rgb(139,174,182)"/>
-<text x="779.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">43%</text>
-<rect x="818" y="622" width="70" height="38" rx="4" fill="rgb(211,227,230)"/>
-<text x="853.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">12%</text>
-<rect x="892" y="622" width="70" height="38" rx="4" fill="rgb(217,231,234)"/>
-<text x="927.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">9%</text>
-<rect x="966" y="622" width="70" height="38" rx="4" fill="rgb(66,121,133)"/>
-<text x="1001.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">75%</text>
-<text x="18" y="704" font-size="11.5" fill="#5a6b72">Allele frequency:</text>
-<rect x="130" y="690" width="26" height="16" fill="rgb(238,246,248)"/>
-<rect x="156" y="690" width="26" height="16" fill="rgb(215,229,232)"/>
-<rect x="182" y="690" width="26" height="16" fill="rgb(192,213,217)"/>
-<rect x="208" y="690" width="26" height="16" fill="rgb(169,196,202)"/>
-<rect x="234" y="690" width="26" height="16" fill="rgb(146,180,187)"/>
-<rect x="260" y="690" width="26" height="16" fill="rgb(124,163,172)"/>
-<rect x="286" y="690" width="26" height="16" fill="rgb(101,147,156)"/>
-<rect x="312" y="690" width="26" height="16" fill="rgb(78,130,141)"/>
-<rect x="338" y="690" width="26" height="16" fill="rgb(55,114,126)"/>
-<rect x="364" y="690" width="26" height="16" fill="rgb(32,97,111)"/>
-<rect x="390" y="690" width="26" height="16" fill="rgb(10,81,96)"/>
-<text x="130" y="722" font-size="10.5" fill="#6b7b82">0%</text>
-<text x="398" y="722" font-size="10.5" fill="#6b7b82">100%</text>
-<text x="18" y="740" font-size="10.5" fill="#9aa7ac">Generated from Ensembl REST API &#183; momentum-font world-history research &#183; frequencies are population-level, not individual predictions</text>
+<rect x="966" y="454" width="70" height="38" rx="4" fill="rgb(64,120,132)"/>
+<text x="1001.0" y="478.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">76%</text>
+<text x="34" y="513.0" font-size="13" font-weight="700" fill="#12303a">ABCC11</text>
+<text x="34" y="529.0" font-size="10" fill="#6b7b82">Dry earwax / less body odor</text>
+<text x="288" y="520.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">T</text>
+<rect x="300" y="496" width="70" height="38" rx="4" fill="rgb(92,141,151)"/>
+<text x="335.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">64%</text>
+<rect x="374" y="496" width="70" height="38" rx="4" fill="rgb(115,157,166)"/>
+<text x="409.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">54%</text>
+<rect x="448" y="496" width="70" height="38" rx="4" fill="rgb(16,85,100)"/>
+<text x="483.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">97%</text>
+<rect x="522" y="496" width="70" height="38" rx="4" fill="rgb(37,100,114)"/>
+<text x="557.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">88%</text>
+<rect x="596" y="496" width="70" height="38" rx="4" fill="rgb(60,117,129)"/>
+<text x="631.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">78%</text>
+<rect x="670" y="496" width="70" height="38" rx="4" fill="rgb(128,166,174)"/>
+<text x="705.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">48%</text>
+<rect x="744" y="496" width="70" height="38" rx="4" fill="rgb(206,223,227)"/>
+<text x="779.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">14%</text>
+<rect x="818" y="496" width="70" height="38" rx="4" fill="rgb(235,244,246)"/>
+<text x="853.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">1%</text>
+<rect x="892" y="496" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="927.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="966" y="496" width="70" height="38" rx="4" fill="rgb(176,201,206)"/>
+<text x="1001.0" y="520.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">27%</text>
+<text x="34" y="555.0" font-size="13" font-weight="700" fill="#12303a">TAS2R38</text>
+<text x="34" y="571.0" font-size="10" fill="#6b7b82">Bitter-taste (PTC) perception</text>
+<text x="288" y="562.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">G</text>
+<rect x="300" y="538" width="70" height="38" rx="4" fill="rgb(67,122,134)"/>
+<text x="335.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">75%</text>
+<rect x="374" y="538" width="70" height="38" rx="4" fill="rgb(74,128,139)"/>
+<text x="409.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">72%</text>
+<rect x="448" y="538" width="70" height="38" rx="4" fill="rgb(84,134,145)"/>
+<text x="483.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">68%</text>
+<rect x="522" y="538" width="70" height="38" rx="4" fill="rgb(108,152,161)"/>
+<text x="557.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">57%</text>
+<rect x="596" y="538" width="70" height="38" rx="4" fill="rgb(83,134,145)"/>
+<text x="631.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">68%</text>
+<rect x="670" y="538" width="70" height="38" rx="4" fill="rgb(159,189,195)"/>
+<text x="705.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">34%</text>
+<rect x="744" y="538" width="70" height="38" rx="4" fill="rgb(141,176,183)"/>
+<text x="779.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">42%</text>
+<rect x="818" y="538" width="70" height="38" rx="4" fill="rgb(129,167,175)"/>
+<text x="853.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">48%</text>
+<rect x="892" y="538" width="70" height="38" rx="4" fill="rgb(132,169,177)"/>
+<text x="927.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">46%</text>
+<rect x="966" y="538" width="70" height="38" rx="4" fill="rgb(42,104,117)"/>
+<text x="1001.0" y="562.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">86%</text>
+<text x="34" y="597.0" font-size="13" font-weight="700" fill="#12303a">ACTN3</text>
+<text x="34" y="613.0" font-size="10" fill="#6b7b82">R577X 'sprint gene' (X=stop)</text>
+<text x="288" y="604.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">T</text>
+<rect x="300" y="580" width="70" height="38" rx="4" fill="rgb(144,178,185)"/>
+<text x="335.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">41%</text>
+<rect x="374" y="580" width="70" height="38" rx="4" fill="rgb(122,162,171)"/>
+<text x="409.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">50%</text>
+<rect x="448" y="580" width="70" height="38" rx="4" fill="rgb(141,176,183)"/>
+<text x="483.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">42%</text>
+<rect x="522" y="580" width="70" height="38" rx="4" fill="rgb(127,165,174)"/>
+<text x="557.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">49%</text>
+<rect x="596" y="580" width="70" height="38" rx="4" fill="rgb(136,172,180)"/>
+<text x="631.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">44%</text>
+<rect x="670" y="580" width="70" height="38" rx="4" fill="rgb(104,149,158)"/>
+<text x="705.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">59%</text>
+<rect x="744" y="580" width="70" height="38" rx="4" fill="rgb(139,174,182)"/>
+<text x="779.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">43%</text>
+<rect x="818" y="580" width="70" height="38" rx="4" fill="rgb(211,227,230)"/>
+<text x="853.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">12%</text>
+<rect x="892" y="580" width="70" height="38" rx="4" fill="rgb(217,231,234)"/>
+<text x="927.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">9%</text>
+<rect x="966" y="580" width="70" height="38" rx="4" fill="rgb(66,121,133)"/>
+<text x="1001.0" y="604.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">75%</text>
+<text x="34" y="639.0" font-size="13" font-weight="700" fill="#12303a">CYP2C19</text>
+<text x="34" y="655.0" font-size="10" fill="#6b7b82">CYP2C19*2 poor metabolizer</text>
+<text x="288" y="646.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">A</text>
+<rect x="300" y="622" width="70" height="38" rx="4" fill="rgb(173,199,204)"/>
+<text x="335.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">28%</text>
+<rect x="374" y="622" width="70" height="38" rx="4" fill="rgb(178,202,208)"/>
+<text x="409.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">26%</text>
+<rect x="448" y="622" width="70" height="38" rx="4" fill="rgb(161,190,197)"/>
+<text x="483.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">34%</text>
+<rect x="522" y="622" width="70" height="38" rx="4" fill="rgb(164,192,199)"/>
+<text x="557.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">32%</text>
+<rect x="596" y="622" width="70" height="38" rx="4" fill="rgb(166,194,200)"/>
+<text x="631.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">31%</text>
+<rect x="670" y="622" width="70" height="38" rx="4" fill="rgb(156,186,193)"/>
+<text x="705.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">36%</text>
+<rect x="744" y="622" width="70" height="38" rx="4" fill="rgb(204,222,225)"/>
+<text x="779.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">14%</text>
+<rect x="818" y="622" width="70" height="38" rx="4" fill="rgb(199,217,222)"/>
+<text x="853.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">17%</text>
+<rect x="892" y="622" width="70" height="38" rx="4" fill="rgb(199,218,222)"/>
+<text x="927.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">17%</text>
+<rect x="966" y="622" width="70" height="38" rx="4" fill="rgb(224,236,239)"/>
+<text x="1001.0" y="646.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">6%</text>
+<text x="34" y="681.0" font-size="13" font-weight="700" fill="#12303a">APOE</text>
+<text x="34" y="697.0" font-size="10" fill="#6b7b82">APOE-e4 (Alzheimer risk allele)</text>
+<text x="288" y="688.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">C</text>
+<rect x="300" y="664" width="70" height="38" rx="4" fill="rgb(217,230,234)"/>
+<text x="335.0" y="688.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">9%</text>
+<rect x="374" y="664" width="70" height="38" rx="4" fill="rgb(214,229,232)"/>
+<text x="409.0" y="688.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">10%</text>
+<rect x="448" y="664" width="70" height="38" rx="4" fill="rgb(214,229,232)"/>
+<text x="483.0" y="688.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">10%</text>
+<rect x="522" y="664" width="70" height="38" rx="4" fill="rgb(219,232,235)"/>
+<text x="557.0" y="688.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">8%</text>
+<rect x="596" y="664" width="70" height="38" rx="4" fill="rgb(218,231,234)"/>
+<text x="631.0" y="688.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">9%</text>
+<rect x="670" y="664" width="70" height="38" rx="4" fill="rgb(218,231,234)"/>
+<text x="705.0" y="688.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">9%</text>
+<rect x="744" y="664" width="70" height="38" rx="4" fill="rgb(202,220,224)"/>
+<text x="779.0" y="688.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">16%</text>
+<rect x="818" y="664" width="70" height="38" rx="4" fill="rgb(176,201,207)"/>
+<text x="853.0" y="688.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">27%</text>
+<rect x="892" y="664" width="70" height="38" rx="4" fill="rgb(184,207,212)"/>
+<text x="927.0" y="688.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">24%</text>
+<rect x="966" y="664" width="70" height="38" rx="4" fill="rgb(224,236,239)"/>
+<text x="1001.0" y="688.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">6%</text>
+<text x="34" y="723.0" font-size="13" font-weight="700" fill="#12303a">HBB</text>
+<text x="34" y="739.0" font-size="10" fill="#6b7b82">Sickle-cell (malaria resistance)</text>
+<text x="288" y="730.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">A</text>
+<rect x="300" y="706" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="335.0" y="730.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="374" y="706" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="409.0" y="730.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="448" y="706" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="483.0" y="730.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="522" y="706" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="557.0" y="730.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="596" y="706" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="631.0" y="730.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="670" y="706" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="705.0" y="730.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="744" y="706" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="779.0" y="730.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="818" y="706" width="70" height="38" rx="4" fill="rgb(215,229,232)"/>
+<text x="853.0" y="730.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">10%</text>
+<rect x="892" y="706" width="70" height="38" rx="4" fill="rgb(206,223,226)"/>
+<text x="927.0" y="730.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">14%</text>
+<rect x="966" y="706" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="1001.0" y="730.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<text x="34" y="765.0" font-size="13" font-weight="700" fill="#12303a">ACKR1</text>
+<text x="34" y="781.0" font-size="10" fill="#6b7b82">Duffy-null (vivax-malaria resist.)</text>
+<text x="288" y="772.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">C</text>
+<rect x="300" y="748" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="335.0" y="772.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="374" y="748" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="409.0" y="772.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="448" y="748" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="483.0" y="772.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="522" y="748" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="557.0" y="772.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="596" y="748" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="631.0" y="772.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="670" y="748" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="705.0" y="772.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="744" y="748" width="70" height="38" rx="4" fill="rgb(236,245,247)"/>
+<text x="779.0" y="772.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">1%</text>
+<rect x="818" y="748" width="70" height="38" rx="4" fill="rgb(18,86,101)"/>
+<text x="853.0" y="772.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">96%</text>
+<rect x="892" y="748" width="70" height="38" rx="4" fill="rgb(11,81,96)"/>
+<text x="927.0" y="772.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">100%</text>
+<rect x="966" y="748" width="70" height="38" rx="4" fill="rgb(228,239,241)"/>
+<text x="1001.0" y="772.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">4%</text>
+<text x="34" y="807.0" font-size="13" font-weight="700" fill="#12303a">APOL1</text>
+<text x="34" y="823.0" font-size="10" fill="#6b7b82">APOL1 G1 (trypanosome resist.)</text>
+<text x="288" y="814.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">G</text>
+<rect x="300" y="790" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="335.0" y="814.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="374" y="790" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="409.0" y="814.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="448" y="790" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="483.0" y="814.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="522" y="790" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="557.0" y="814.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="596" y="790" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="631.0" y="814.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="670" y="790" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="705.0" y="814.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="744" y="790" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="779.0" y="814.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="818" y="790" width="70" height="38" rx="4" fill="rgb(178,203,208)"/>
+<text x="853.0" y="814.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">26%</text>
+<rect x="892" y="790" width="70" height="38" rx="4" fill="rgb(152,184,191)"/>
+<text x="927.0" y="814.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">38%</text>
+<rect x="966" y="790" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="1001.0" y="814.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<text x="34" y="849.0" font-size="13" font-weight="700" fill="#12303a">FUT2</text>
+<text x="34" y="865.0" font-size="10" fill="#6b7b82">FUT2 non-secretor (gut immunity)</text>
+<text x="288" y="856.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">A</text>
+<rect x="300" y="832" width="70" height="38" rx="4" fill="rgb(236,245,247)"/>
+<text x="335.0" y="856.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="374" y="832" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="409.0" y="856.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="448" y="832" width="70" height="38" rx="4" fill="rgb(234,243,245)"/>
+<text x="483.0" y="856.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">2%</text>
+<rect x="522" y="832" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="557.0" y="856.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="596" y="832" width="70" height="38" rx="4" fill="rgb(237,245,247)"/>
+<text x="631.0" y="856.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="670" y="832" width="70" height="38" rx="4" fill="rgb(173,199,204)"/>
+<text x="705.0" y="856.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">28%</text>
+<rect x="744" y="832" width="70" height="38" rx="4" fill="rgb(137,173,180)"/>
+<text x="779.0" y="856.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">44%</text>
+<rect x="818" y="832" width="70" height="38" rx="4" fill="rgb(126,164,173)"/>
+<text x="853.0" y="856.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">49%</text>
+<rect x="892" y="832" width="70" height="38" rx="4" fill="rgb(114,156,165)"/>
+<text x="927.0" y="856.0" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">54%</text>
+<rect x="966" y="832" width="70" height="38" rx="4" fill="rgb(209,225,229)"/>
+<text x="1001.0" y="856.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">12%</text>
+<text x="34" y="891.0" font-size="13" font-weight="700" fill="#12303a">G6PD</text>
+<text x="34" y="907.0" font-size="10" fill="#6b7b82">G6PD A- deficiency (malaria)</text>
+<text x="288" y="898.0" font-size="11" text-anchor="end" fill="#0a5160" font-weight="700">T</text>
+<rect x="300" y="874" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="335.0" y="898.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="374" y="874" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="409.0" y="898.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="448" y="874" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="483.0" y="898.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="522" y="874" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="557.0" y="898.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="596" y="874" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="631.0" y="898.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="670" y="874" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="705.0" y="898.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="744" y="874" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="779.0" y="898.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<rect x="818" y="874" width="70" height="38" rx="4" fill="rgb(207,223,227)"/>
+<text x="853.0" y="898.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">14%</text>
+<rect x="892" y="874" width="70" height="38" rx="4" fill="rgb(190,211,216)"/>
+<text x="927.0" y="898.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">21%</text>
+<rect x="966" y="874" width="70" height="38" rx="4" fill="rgb(238,246,248)"/>
+<text x="1001.0" y="898.0" font-size="12" font-weight="600" text-anchor="middle" fill="#12303a">0%</text>
+<text x="18" y="956" font-size="11.5" fill="#5a6b72">Allele frequency:</text>
+<rect x="130" y="942" width="26" height="16" fill="rgb(238,246,248)"/>
+<rect x="156" y="942" width="26" height="16" fill="rgb(215,229,232)"/>
+<rect x="182" y="942" width="26" height="16" fill="rgb(192,213,217)"/>
+<rect x="208" y="942" width="26" height="16" fill="rgb(169,196,202)"/>
+<rect x="234" y="942" width="26" height="16" fill="rgb(146,180,187)"/>
+<rect x="260" y="942" width="26" height="16" fill="rgb(124,163,172)"/>
+<rect x="286" y="942" width="26" height="16" fill="rgb(101,147,156)"/>
+<rect x="312" y="942" width="26" height="16" fill="rgb(78,130,141)"/>
+<rect x="338" y="942" width="26" height="16" fill="rgb(55,114,126)"/>
+<rect x="364" y="942" width="26" height="16" fill="rgb(32,97,111)"/>
+<rect x="390" y="942" width="26" height="16" fill="rgb(10,81,96)"/>
+<text x="130" y="974" font-size="10.5" fill="#6b7b82">0%</text>
+<text x="398" y="974" font-size="10.5" fill="#6b7b82">100%</text>
+<text x="18" y="992" font-size="10.5" fill="#9aa7ac">Generated from Ensembl REST API &#183; momentum-font world-history research &#183; frequencies are population-level, not individual predictions</text>
 </svg>

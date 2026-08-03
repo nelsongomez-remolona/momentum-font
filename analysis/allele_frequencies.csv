@@ -12,3 +12,9 @@ Disease,rs334,HBB,Sickle-cell (malaria resistance),A,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 Disease,rs2814778,ACKR1,Duffy-null (vivax-malaria resist.),C,0.0,0.0,0.0,0.0,0.0,0.0,0.006,0.964,0.995,0.041,C = Duffy-negative
 Disease,rs73885319,APOL1,APOL1 G1 (trypanosome resist.),G,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.259,0.375,0.0,G = African-specific G1 risk allele
 Physical,rs1815739,ACTN3,R577X 'sprint gene' (X=stop),T,0.409,0.505,0.422,0.486,0.443,0.587,0.434,0.115,0.088,0.753,T = X = nonfunctional alpha-actinin-3
+Pigment,rs1800414,OCA2,Light skin (EAST-Asian route),C,0.591,0.624,0.592,0.572,0.596,0.004,0.0,0.001,0.0,0.0,East-Asian-specific light-skin allele (His615Arg)
+Sensory,rs713598,TAS2R38,Bitter-taste (PTC) perception,G,0.747,0.715,0.675,0.567,0.676,0.345,0.422,0.475,0.463,0.859,shown allele of the PTC taster/non-taster site
+Pharma,rs4244285,CYP2C19,CYP2C19*2 poor metabolizer,A,0.283,0.263,0.335,0.322,0.312,0.358,0.145,0.17,0.167,0.059,A = *2 loss-of-function (clopidogrel etc.)
+Health,rs429358,APOE,APOE-e4 (Alzheimer risk allele),C,0.091,0.102,0.102,0.082,0.086,0.087,0.155,0.268,0.236,0.059,C = e4 risk allele
+Disease,rs601338,FUT2,FUT2 non-secretor (gut immunity),A,0.005,0.0,0.015,0.0,0.004,0.283,0.441,0.491,0.542,0.124,A = nonsense -> non-secretor
+Disease,rs1050828,G6PD,G6PD A- deficiency (malaria),T,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.135,0.207,0.0,T = African A- deficiency allele (X-linked)

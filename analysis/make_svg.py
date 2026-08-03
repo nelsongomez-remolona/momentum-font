@@ -6,7 +6,10 @@ rows = list(csv.DictReader(open("allele_frequencies.csv")))
 POPS = ["KHV (Viet~Fil)","CDX (Dai~Fil)","CHB (Han)","JPT (Japan)","EAS",
         "SAS","EUR","AFR","YRI (Nigeria)","PEL (Peru)"]
 CATCOL = {"Diet":"#c9772a","Pigment":"#7a5bb0","Morphology":"#2a8ca8",
-          "Disease":"#c0453f","Physical":"#3f8f5a"}
+          "Disease":"#c0453f","Physical":"#3f8f5a","Sensory":"#b8892b",
+          "Pharma":"#4a6fa5","Health":"#9a5b7a"}
+CAT_ORDER = ["Diet","Pigment","Morphology","Sensory","Physical","Pharma","Health","Disease"]
+rows.sort(key=lambda r: (CAT_ORDER.index(r["category"]) if r["category"] in CAT_ORDER else 99))
 
 GUT = 30                 # category gutter (rotated labels)
 LEFTW = 268              # gene/trait text

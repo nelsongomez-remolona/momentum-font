@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" font-family="system-ui,Arial,sans-serif">
+<rect width="760" height="560" fill="white"/>
+<text x="20" y="34" font-size="19" font-weight="700" fill="#12303a">Populations clustered by overall similarity</text>
+<text x="20" y="52" font-size="12" fill="#5a6b72">Average-linkage on 19 SNPs (Ensembl / 1000 Genomes). Shorter joins = more genetically alike.</text>
+<text x="600" y="64" font-size="12.5" fill="#12303a" font-weight="400">PEL (Peru)</text>
+<text x="600" y="110" font-size="12.5" fill="#0a5160" font-weight="700">KHV (Viet~Fil)</text>
+<text x="600" y="156" font-size="12.5" fill="#0a5160" font-weight="700">CDX (Dai~Fil)</text>
+<line x1="545.4143326026594" y1="106" x2="590.0" y2="106" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="545.4143326026594" y1="152" x2="590.0" y2="152" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="545.4143326026594" y1="106" x2="545.4143326026594" y2="152" stroke="#3a6b78" stroke-width="1.6"/>
+<text x="600" y="202" font-size="12.5" fill="#12303a" font-weight="400">EAS</text>
+<text x="600" y="248" font-size="12.5" fill="#12303a" font-weight="400">CHB (Han)</text>
+<text x="600" y="294" font-size="12.5" fill="#12303a" font-weight="400">JPT (Japan)</text>
+<line x1="537.6734021672312" y1="244" x2="590.0" y2="244" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="537.6734021672312" y1="290" x2="590.0" y2="290" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="537.6734021672312" y1="244" x2="537.6734021672312" y2="290" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="520.9676559315947" y1="198" x2="590.0" y2="198" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="520.9676559315947" y1="267.0" x2="537.6734021672312" y2="267.0" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="520.9676559315947" y1="198" x2="520.9676559315947" y2="267.0" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="469.0299181579407" y1="129.0" x2="545.4143326026594" y2="129.0" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="469.0299181579407" y1="232.5" x2="520.9676559315947" y2="232.5" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="469.0299181579407" y1="129.0" x2="469.0299181579407" y2="232.5" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="306.14176802294054" y1="60" x2="590.0" y2="60" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="306.14176802294054" y1="180.75" x2="469.0299181579407" y2="180.75" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="306.14176802294054" y1="60" x2="306.14176802294054" y2="180.75" stroke="#3a6b78" stroke-width="1.6"/>
+<text x="600" y="340" font-size="12.5" fill="#12303a" font-weight="400">AFR</text>
+<text x="600" y="386" font-size="12.5" fill="#12303a" font-weight="400">YRI (Nigeria)</text>
+<line x1="548.5579482368228" y1="336" x2="590.0" y2="336" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="548.5579482368228" y1="382" x2="590.0" y2="382" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="548.5579482368228" y1="336" x2="548.5579482368228" y2="382" stroke="#3a6b78" stroke-width="1.6"/>
+<text x="600" y="432" font-size="12.5" fill="#12303a" font-weight="400">SAS</text>
+<text x="600" y="478" font-size="12.5" fill="#12303a" font-weight="400">EUR</text>
+<line x1="297.410454371097" y1="428" x2="590.0" y2="428" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="297.410454371097" y1="474" x2="590.0" y2="474" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="297.410454371097" y1="428" x2="297.410454371097" y2="474" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="198.62697830851408" y1="359.0" x2="548.5579482368228" y2="359.0" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="198.62697830851408" y1="451.0" x2="297.410454371097" y2="451.0" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="198.62697830851408" y1="359.0" x2="198.62697830851408" y2="451.0" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="150.0" y1="120.375" x2="306.14176802294054" y2="120.375" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="150.0" y1="405.0" x2="198.62697830851408" y2="405.0" stroke="#3a6b78" stroke-width="1.6"/>
+<line x1="150.0" y1="120.375" x2="150.0" y2="405.0" stroke="#3a6b78" stroke-width="1.6"/>
+<text x="20" y="546" font-size="10.5" fill="#9aa7ac">KHV/CDX = nearest proxies to Filipino ancestry (teal) &#183; momentum-font world-history research</text>
+</svg>

@@ -19,6 +19,12 @@ PANEL = [
     ("Disease",    "rs2814778",  "ACKR1",    "Duffy-null (vivax-malaria resist.)", "C", "C = Duffy-negative"),
     ("Disease",    "rs73885319", "APOL1",    "APOL1 G1 (trypanosome resist.)",     "G", "G = African-specific G1 risk allele"),
     ("Physical",   "rs1815739",  "ACTN3",    "R577X 'sprint gene' (X=stop)",       "T", "T = X = nonfunctional alpha-actinin-3"),
+    ("Pigment",    "rs1800414",  "OCA2",     "Light skin (EAST-Asian route)",      "C", "East-Asian-specific light-skin allele (His615Arg)"),
+    ("Sensory",    "rs713598",   "TAS2R38",  "Bitter-taste (PTC) perception",      "G", "shown allele of the PTC taster/non-taster site"),
+    ("Pharma",     "rs4244285",  "CYP2C19",  "CYP2C19*2 poor metabolizer",         "A", "A = *2 loss-of-function (clopidogrel etc.)"),
+    ("Health",     "rs429358",   "APOE",     "APOE-e4 (Alzheimer risk allele)",    "C", "C = e4 risk allele"),
+    ("Disease",    "rs601338",   "FUT2",     "FUT2 non-secretor (gut immunity)",   "A", "A = nonsense -> non-secretor"),
+    ("Disease",    "rs1050828",  "G6PD",     "G6PD A- deficiency (malaria)",       "T", "T = African A- deficiency allele (X-linked)"),
 ]
 
 # display label -> 1000G phase_3 code. SE-Asian (Filipino) proxies first.
