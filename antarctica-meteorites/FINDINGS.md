@@ -6,7 +6,8 @@ coordinates. Mirror: NASA Open Data / [figshare](https://rochester.figshare.com/
 Analysis: [`analyze_meteorites.py`](./analyze_meteorites.py) (`python3 analyze_meteorites.py`).
 
 **Antarctic subset** = records south of 60°S **or** carrying a known Antarctic
-collection-field name (Allan Hills, Yamato, Queen Alexandra Range, …): **30,646**.
+collection-field name (Allan Hills, Yamato, Queen Alexandra Range, …) whose
+coordinates aren't clearly northern: **30,367**.
 
 > ⚠️ **Data caveat:** this snapshot effectively ends **~2013**. The collapse in the
 > 2010s row is the *catalogue* ending, not meteorites running out.
@@ -16,7 +17,7 @@ collection-field name (Allan Hills, Yamato, Queen Alexandra Range, …): **30,64
 ## The surprising findings
 
 ### 1. Two out of every three meteorites on Earth were found in Antarctica
-**30,646 of 45,716 catalogued meteorites (67%) come from Antarctica** — a continent
+**30,367 of 45,716 catalogued meteorites (66%) come from Antarctica** — a continent
 with no permanent population, where humans have physically searched a vanishingly
 small fraction of the surface. A place almost nobody goes has produced the majority
 of the world's space rocks.
@@ -70,8 +71,49 @@ as about the ice.
 
 ---
 
+## What kind of rocks are they?
+
+Overwhelmingly **ordinary chondrites** — the commonest, most primitive stony meteorites,
+unmelted debris from the asteroid belt, ~4.56 billion years old:
+
+| Type | Share | What it is |
+|---|---:|---|
+| Ordinary chondrite (H / L / LL) | **~92%** | primitive stony asteroid debris |
+| Carbonaceous chondrite | ~3.3% | carbon-, water- and organics-rich; origin-of-life clues |
+| Achondrite (asteroidal) | ~2.5% | from melted parent bodies (e.g. Vesta) |
+| Enstatite chondrite | ~0.7% | rare, formed in the inner solar system |
+| Iron / stony-iron | ~0.8% | fragments of asteroid **cores** |
+| **From the Moon / Mars** | ~0.2% | 33 lunar + 22 Martian — pieces of other worlds |
+
+### The iron paradox (a genuine anomaly)
+Iron and stony-iron meteorites are **~0.8% of Antarctic finds but 5.4% of witnessed falls
+worldwide — roughly 7× under-represented.** The leading explanation is elegant: dark, dense,
+heat-conducting iron warms in the 24-hour summer sun, **melts down into the ice, and sinks
+below the surface**, dropping out of the blue-ice collection layer. Antarctica's huge sample
+is precisely what made this missing-iron effect measurable.
+
+## Does a "gravity well" under Antarctica gather the meteorites?
+No — and it's a natural thing to wonder. Two *real* facts get conflated:
+- Antarctica **does** have gravity anomalies — most famously the **Wilkes Land anomaly** in
+  East Antarctica (a large mass/negative-gravity feature under the ice, hypothesized by some
+  to be a buried impact structure), plus ongoing gravity changes measured by the GRACE
+  satellites as the ice sheet loses mass.
+- But **gravity does not concentrate meteorites.** Earth's surface gravity varies by well
+  under 1%, and local anomalies are parts-per-million of *g* — far too weak to steer incoming
+  meteoroids (arriving at 11–70 km/s) toward one continent or to gather fallen stones.
+  Meteorites fall **evenly** over the whole planet.
+
+The Antarctic concentration is **100% glaciological**: ice flow transports the stones, blue-ice
+ablation exposes them, the cold-dry climate preserves them for up to ~1–2 million years, dark
+rocks stand out on white ice, and expedition teams collect them systematically. The gravity
+anomaly and the meteorite pile-up are two true Antarctic facts that simply **aren't causally
+linked**.
+
+---
+
 ## The one-line insight
 Antarctica isn't where most meteorites *land* — they fall evenly worldwide — it's where
 the ice **preserves, transports, and concentrates** them, and where systematic teams
-**collect the small ones everyone else misses**. The 67% figure is a story about *ice
-dynamics and human effort*, and it's how we ended up holding pieces of Mars and the Moon.
+**collect the small ones everyone else misses**. The 66% figure is a story about *ice
+dynamics and human effort* (not gravity), and it's how we ended up holding pieces of Mars
+and the Moon.
