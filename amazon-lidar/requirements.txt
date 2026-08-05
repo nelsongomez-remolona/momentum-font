@@ -1,0 +1,6 @@
+numpy
+scipy
+requests
+Pillow
+# optional, only for load_geotiff() with real LiDAR:
+# rasterio

@@ -1,0 +1,6 @@
+# reproducible / bulky intermediates
+tile_cache/
+output/dem.npy
+output/_preview_*.png
+__pycache__/
+*.pyc
