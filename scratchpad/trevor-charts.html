@@ -1,0 +1,191 @@
+<title>Trevor · Natal Charts · Oct 29 1997</title>
+<style>
+  :root{
+    --bg:#f3ecdd;--panel:#fbf6ea;--ink:#241a10;--ink-soft:#6a5a44;
+    --line:#d8c6a4;--line-strong:#b79a68;--accent:#9a2b1e;--gold:#b8862e;
+    --retro:#9a2b1e;--asc:#146356;--grid-cell:#f7efdd;--grid-center:#efe4cb;
+    --shadow:0 1px 0 rgba(120,90,40,.15);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#12100c;--panel:#1c1813;--ink:#efe6d3;--ink-soft:#a99a7f;
+      --line:#3a3226;--line-strong:#5a4c34;--accent:#e8735f;--gold:#e0b155;
+      --retro:#e8735f;--asc:#4fb8a4;--grid-cell:#1f1a13;--grid-center:#171310;
+      --shadow:0 1px 0 rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12100c;--panel:#1c1813;--ink:#efe6d3;--ink-soft:#a99a7f;
+    --line:#3a3226;--line-strong:#5a4c34;--accent:#e8735f;--gold:#e0b155;
+    --retro:#e8735f;--asc:#4fb8a4;--grid-cell:#1f1a13;--grid-center:#171310;
+    --shadow:0 1px 0 rgba(0,0,0,.4);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    line-height:1.5;-webkit-font-smoothing:antialiased;padding:clamp(16px,4vw,48px);}
+  .wrap{max-width:960px;margin:0 auto}
+  header{text-align:center;margin-bottom:22px}
+  .eyebrow{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;
+    letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+  h1{font-size:clamp(24px,4vw,36px);margin:0;font-weight:600;text-wrap:balance}
+  .sub{color:var(--ink-soft);margin:8px 0 0;font-size:14.5px}
+  .sub b{color:var(--ink);font-weight:600}
+
+  .note{max-width:640px;margin:16px auto 0;padding:11px 16px;font-size:13px;
+    color:var(--ink-soft);background:var(--panel);border:1px solid var(--line);
+    border-radius:6px;text-align:center}
+  .note b{color:var(--ink)}
+
+  .charts{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:26px}
+  @media (max-width:720px){.charts{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:6px;
+    padding:16px;box-shadow:var(--shadow)}
+  .card h2{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;
+    letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 4px;
+    font-weight:600;display:flex;justify-content:space-between;align-items:baseline}
+  .card h2 span{color:var(--gold);letter-spacing:.1em}
+  .place{font-size:12.5px;color:var(--ink-soft);margin:0 0 12px}
+  .place b{color:var(--asc);font-weight:600}
+
+  .chart{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(4,1fr);
+    border:2px solid var(--line-strong);aspect-ratio:1/1;background:var(--line-strong)}
+  .cell{background:var(--grid-cell);border:.5px solid var(--line);padding:4px 5px;
+    position:relative;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+  .cell.lagna{background:color-mix(in srgb,var(--asc) 14%,var(--grid-cell))}
+  .cell.center{background:var(--grid-center);align-items:center;justify-content:center;
+    text-align:center;border:none}
+  .cell .sgn{font-family:ui-monospace,monospace;font-size:8px;letter-spacing:.04em;
+    color:var(--ink-soft);text-transform:uppercase;position:absolute;top:3px;right:5px}
+  .planets{display:flex;flex-wrap:wrap;gap:2px 5px;margin-top:12px;align-content:flex-start}
+  .pl{font-size:11.5px;white-space:nowrap;line-height:1.1}
+  .pl b{font-weight:600}
+  .pl .d{font-size:8px;color:var(--ink-soft);font-family:ui-monospace,monospace}
+  .pl.retro b{color:var(--retro)}
+  .pl.asc b{color:var(--asc)}
+  .badge{font-size:7px;font-family:ui-monospace,monospace;color:var(--retro);vertical-align:super}
+  .centerlogo{color:var(--gold);font-size:10px;letter-spacing:.14em;
+    font-family:ui-monospace,monospace;text-transform:uppercase;line-height:1.7}
+  .centerlogo small{display:block;color:var(--asc);font-size:9px;letter-spacing:.06em;margin-top:5px}
+
+  .card.wide{margin-top:22px}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th,td{text-align:left;padding:6px 4px;border-bottom:1px solid var(--line)}
+  th{font-family:ui-monospace,monospace;font-size:9.5px;letter-spacing:.12em;
+     text-transform:uppercase;color:var(--ink-soft);font-weight:600}
+  td.num{font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums;
+     white-space:nowrap;font-size:12px}
+  .rr{color:var(--retro);font-family:ui-monospace,monospace;font-size:10px}
+  tr:last-child td{border-bottom:none}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  @media (max-width:720px){.cols{grid-template-columns:1fr}}
+
+  .drow{display:grid;grid-template-columns:88px 1fr auto;gap:12px;align-items:center;
+    padding:6px 0;border-bottom:1px solid var(--line);font-size:13px}
+  .drow:last-child{border-bottom:none}
+  .drow .lord{font-weight:600}
+  .drow .bar{height:5px;border-radius:3px;background:var(--line);overflow:hidden}
+  .drow.now{background:linear-gradient(90deg,color-mix(in srgb,var(--accent) 10%,transparent),transparent);
+    border-radius:4px;padding-left:6px;margin-left:-6px}
+  .drow.now .lord{color:var(--accent)}
+  .yrs{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-soft);
+    font-variant-numeric:tabular-nums}
+  .now-tag{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:.1em;
+    color:var(--accent);text-transform:uppercase}
+  .foot{margin-top:24px;text-align:center;color:var(--ink-soft);font-size:12px;
+    font-family:ui-monospace,monospace}
+  .foot .dot{color:var(--line-strong);margin:0 8px}
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Jyotish · Natal Rāśi (D-1) · Lahiri</p>
+    <h1>Trevor — Two Cities, One Sky</h1>
+    <p class="sub"><b>29 October 1997, Wed</b> · 01:20 UTC (30 Oct) · sidereal / Lahiri ayanāṁśa</p>
+    <p class="note"><b>6:20 PM MST</b> in Phoenix and <b>8:20 PM EST</b> in Plainview are the
+      <b>same instant</b> — so every planet sits in the same place. Only the <b>rising sign</b>
+      moves: Phoenix rises <b>Aries</b>, Plainview rises <b>Gemini</b> (houses rotate two signs).</p>
+  </header>
+
+  <div class="charts">
+    <!-- PHOENIX -->
+    <div class="card">
+      <h2>Trevor in Phoenix <span>D-1</span></h2>
+      <p class="place">6:20 PM MST · Phoenix, AZ · 33°27′N 112°04′W · Lagna <b>Aries 27°22′</b></p>
+      <div class="chart">
+        <div class="cell"><span class="sgn">Pisces</span><div class="planets"><span class="pl retro"><b>Sa</b><span class="badge">℞</span> <span class="d">21°34′</span></span></div></div>
+        <div class="cell lagna"><span class="sgn">Aries</span><div class="planets"><span class="pl asc"><b>La</b> <span class="d">27°22′</span></span></div></div>
+        <div class="cell"><span class="sgn">Taurus</span></div>
+        <div class="cell"><span class="sgn">Gemini</span></div>
+        <div class="cell"><span class="sgn">Aquarius</span><div class="planets"><span class="pl retro"><b>Ke</b><span class="badge">℞</span> <span class="d">23°14′</span></span></div></div>
+        <div class="cell center" style="grid-column:2/4;grid-row:2/4"><div class="centerlogo">Meṣa Lagna<small>Ascendant · Aries</small></div></div>
+        <div class="cell"><span class="sgn">Cancer</span></div>
+        <div class="cell"><span class="sgn">Capricorn</span><div class="planets"><span class="pl"><b>Ju</b> <span class="d">19°02′</span></span></div></div>
+        <div class="cell"><span class="sgn">Leo</span><div class="planets"><span class="pl retro"><b>Ra</b><span class="badge">℞</span> <span class="d">23°14′</span></span></div></div>
+        <div class="cell"><span class="sgn">Sagittarius</span></div>
+        <div class="cell"><span class="sgn">Scorpio</span><div class="planets"><span class="pl"><b>Ma</b> <span class="d">28°34′</span></span><span class="pl"><b>Ve</b> <span class="d">29°41′</span></span></div></div>
+        <div class="cell"><span class="sgn">Libra</span><div class="planets"><span class="pl"><b>Su</b> <span class="d">12°49′</span></span><span class="pl"><b>Me</b> <span class="d">23°00′</span></span></div></div>
+        <div class="cell"><span class="sgn">Virgo</span><div class="planets"><span class="pl"><b>Mo</b> <span class="d">27°38′</span></span></div></div>
+      </div>
+    </div>
+
+    <!-- PLAINVIEW NY -->
+    <div class="card">
+      <h2>Trevor in NY <span>D-1</span></h2>
+      <p class="place">8:20 PM EST · Plainview, NY · 40°47′N 73°28′W · Lagna <b>Gemini 12°21′</b></p>
+      <div class="chart">
+        <div class="cell"><span class="sgn">Pisces</span><div class="planets"><span class="pl retro"><b>Sa</b><span class="badge">℞</span> <span class="d">21°34′</span></span></div></div>
+        <div class="cell"><span class="sgn">Aries</span></div>
+        <div class="cell"><span class="sgn">Taurus</span></div>
+        <div class="cell lagna"><span class="sgn">Gemini</span><div class="planets"><span class="pl asc"><b>La</b> <span class="d">12°21′</span></span></div></div>
+        <div class="cell"><span class="sgn">Aquarius</span><div class="planets"><span class="pl retro"><b>Ke</b><span class="badge">℞</span> <span class="d">23°14′</span></span></div></div>
+        <div class="cell center" style="grid-column:2/4;grid-row:2/4"><div class="centerlogo">Mithuna Lagna<small>Ascendant · Gemini</small></div></div>
+        <div class="cell"><span class="sgn">Cancer</span></div>
+        <div class="cell"><span class="sgn">Capricorn</span><div class="planets"><span class="pl"><b>Ju</b> <span class="d">19°02′</span></span></div></div>
+        <div class="cell"><span class="sgn">Leo</span><div class="planets"><span class="pl retro"><b>Ra</b><span class="badge">℞</span> <span class="d">23°14′</span></span></div></div>
+        <div class="cell"><span class="sgn">Sagittarius</span></div>
+        <div class="cell"><span class="sgn">Scorpio</span><div class="planets"><span class="pl"><b>Ma</b> <span class="d">28°34′</span></span><span class="pl"><b>Ve</b> <span class="d">29°41′</span></span></div></div>
+        <div class="cell"><span class="sgn">Libra</span><div class="planets"><span class="pl"><b>Su</b> <span class="d">12°49′</span></span><span class="pl"><b>Me</b> <span class="d">23°00′</span></span></div></div>
+        <div class="cell"><span class="sgn">Virgo</span><div class="planets"><span class="pl"><b>Mo</b> <span class="d">27°38′</span></span></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHARED DATA -->
+  <div class="card wide">
+    <div class="cols">
+      <div>
+        <h2 style="margin-bottom:12px">Grahas <span>shared · sidereal</span></h2>
+        <table>
+          <thead><tr><th>Planet</th><th>Sign</th><th>Degree</th><th>Nakshatra · Pada</th></tr></thead>
+          <tbody>
+            <tr><td>☉ Sun</td><td>Libra</td><td class="num">12°49′</td><td>Swati · 2</td></tr>
+            <tr><td>☾ Moon</td><td>Virgo</td><td class="num">27°38′</td><td>Chitra · 2</td></tr>
+            <tr><td>♂ Mars</td><td>Scorpio</td><td class="num">28°34′</td><td>Jyeshtha · 4</td></tr>
+            <tr><td>☿ Mercury</td><td>Libra</td><td class="num">23°00′</td><td>Vishakha · 1</td></tr>
+            <tr><td>♃ Jupiter</td><td>Capricorn</td><td class="num">19°02′</td><td>Shravana · 3</td></tr>
+            <tr><td>♀ Venus</td><td>Scorpio</td><td class="num">29°41′</td><td>Jyeshtha · 4</td></tr>
+            <tr><td>♄ Saturn <span class="rr">℞</span></td><td>Pisces</td><td class="num">21°34′</td><td>Revati · 2</td></tr>
+            <tr><td>☊ Rahu <span class="rr">℞</span></td><td>Leo</td><td class="num">23°14′</td><td>P. Phalguni · 3</td></tr>
+            <tr><td>☋ Ketu <span class="rr">℞</span></td><td>Aquarius</td><td class="num">23°14′</td><td>P. Bhadrapada · 1</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h2 style="margin-bottom:12px">Vimśottarī Daśā <span>Moon in Chitra → Mars</span></h2>
+        <div class="drow"><span class="lord">Mars</span><span class="bar"></span><span class="yrs">1995 – 2002</span></div>
+        <div class="drow now"><span class="lord">Rahu</span><span class="bar"></span><span class="yrs">2002 – 2020 <span class="now-tag">● current</span></span></div>
+        <div class="drow"><span class="lord">Jupiter</span><span class="bar"></span><span class="yrs">2020 – 2036</span></div>
+        <div class="drow"><span class="lord">Saturn</span><span class="bar"></span><span class="yrs">2036 – 2055</span></div>
+        <div class="drow"><span class="lord">Mercury</span><span class="bar"></span><span class="yrs">2055 – 2072</span></div>
+        <div class="drow"><span class="lord">Ketu</span><span class="bar"></span><span class="yrs">2072 – 2079</span></div>
+        <div class="drow"><span class="lord">Venus</span><span class="bar"></span><span class="yrs">2079 – 2099</span></div>
+        <p class="place" style="margin-top:12px">Moon 32% through Chitra at birth → Mars daśā balance ≈ 4.7 yrs.
+          <b style="color:var(--ink-soft)">Note:</b> daśā depends only on the Moon, so it is identical for both cities.</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="foot">Swiss Ephemeris <span class="dot">·</span> Lahiri ayanāṁśa 23°50′
+    <span class="dot">·</span> mean node <span class="dot">·</span> Phoenix MST−7 / NY EST−5, same UTC instant</p>
+</div>
