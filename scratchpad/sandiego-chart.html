@@ -1,0 +1,251 @@
+<title>Natal Chart & Reading · San Diego · Aug 3 1998</title>
+<style>
+  :root{
+    --bg:#f3ecdd;--panel:#fbf6ea;--ink:#241a10;--ink-soft:#6a5a44;
+    --line:#d8c6a4;--line-strong:#b79a68;--accent:#9a2b1e;--gold:#b8862e;
+    --retro:#9a2b1e;--asc:#146356;--grid-cell:#f7efdd;--grid-center:#efe4cb;
+    --shadow:0 1px 0 rgba(120,90,40,.15);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#12100c;--panel:#1c1813;--ink:#efe6d3;--ink-soft:#a99a7f;
+      --line:#3a3226;--line-strong:#5a4c34;--accent:#e8735f;--gold:#e0b155;
+      --retro:#e8735f;--asc:#4fb8a4;--grid-cell:#1f1a13;--grid-center:#171310;
+      --shadow:0 1px 0 rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12100c;--panel:#1c1813;--ink:#efe6d3;--ink-soft:#a99a7f;
+    --line:#3a3226;--line-strong:#5a4c34;--accent:#e8735f;--gold:#e0b155;
+    --retro:#e8735f;--asc:#4fb8a4;--grid-cell:#1f1a13;--grid-center:#171310;
+    --shadow:0 1px 0 rgba(0,0,0,.4);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    line-height:1.6;-webkit-font-smoothing:antialiased;padding:clamp(16px,4vw,48px)}
+  .wrap{max-width:960px;margin:0 auto}
+  header{text-align:center;margin-bottom:26px}
+  .eyebrow{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;
+    letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+  h1{font-size:clamp(26px,4.4vw,40px);margin:0;font-weight:600;text-wrap:balance}
+  .sub{color:var(--ink-soft);margin:8px 0 0;font-size:15px}
+  .sub b{color:var(--ink);font-weight:600}
+  .layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:26px;
+    align-items:start;margin-top:8px}
+  @media (max-width:720px){.layout{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:6px;
+    padding:18px 18px 20px;box-shadow:var(--shadow)}
+  .card h2{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 14px;
+    font-weight:600;display:flex;justify-content:space-between;align-items:baseline}
+  .card h2 span{color:var(--gold);letter-spacing:.12em}
+  .chart{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(4,1fr);
+    border:2px solid var(--line-strong);aspect-ratio:1/1;background:var(--line-strong)}
+  .cell{background:var(--grid-cell);border:.5px solid var(--line);padding:5px 6px;
+    position:relative;overflow:hidden;display:flex;flex-direction:column;gap:2px;min-width:0}
+  .cell.lagna{background:color-mix(in srgb,var(--asc) 14%,var(--grid-cell))}
+  .cell.center{background:var(--grid-center);align-items:center;justify-content:center;
+    text-align:center;border:none}
+  .cell .sgn{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:.06em;
+    color:var(--ink-soft);text-transform:uppercase;position:absolute;top:4px;right:6px}
+  .cell .hn{font-family:ui-monospace,monospace;font-size:8px;color:var(--gold);
+    position:absolute;top:4px;left:6px;opacity:.8}
+  .cell .planets{display:flex;flex-wrap:wrap;gap:3px 6px;margin-top:14px;align-content:flex-start}
+  .pl{font-size:13px;white-space:nowrap;line-height:1.15}
+  .pl b{font-weight:600}
+  .pl .d{font-size:9.5px;color:var(--ink-soft);font-family:ui-monospace,monospace}
+  .pl.retro b{color:var(--retro)}
+  .pl.asc b{color:var(--asc)}
+  .badge{font-size:8px;font-family:ui-monospace,monospace;color:var(--retro);vertical-align:super}
+  .centerlogo{color:var(--gold);font-size:12px;letter-spacing:.18em;
+    font-family:ui-monospace,monospace;text-transform:uppercase;line-height:1.9}
+  .centerlogo small{display:block;color:var(--asc);font-size:9px;letter-spacing:.06em;margin-top:6px}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:left;padding:5px 4px;border-bottom:1px solid var(--line)}
+  th{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:.1em;
+     text-transform:uppercase;color:var(--ink-soft);font-weight:600}
+  td.num{font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums;
+     white-space:nowrap;font-size:11.5px}
+  td.h{font-family:ui-monospace,monospace;color:var(--gold);font-size:11px}
+  .rr{color:var(--retro);font-family:ui-monospace,monospace;font-size:10px}
+  tr:last-child td{border-bottom:none}
+
+  .reading{margin-top:30px}
+  .reading h2{font-family:ui-monospace,"SF Mono",monospace;font-size:11px;letter-spacing:.2em;
+    text-transform:uppercase;color:var(--gold);margin:0 0 6px}
+  .reading h1{margin:0 0 20px}
+  .sec{background:var(--panel);border:1px solid var(--line);border-radius:6px;
+    padding:18px 22px;margin-bottom:16px;box-shadow:var(--shadow)}
+  .sec h3{margin:0 0 8px;font-size:19px;font-weight:600;display:flex;align-items:baseline;gap:10px}
+  .sec h3 .tag{font-family:ui-monospace,monospace;font-size:10px;letter-spacing:.08em;
+    color:var(--accent);text-transform:uppercase;font-weight:600}
+  .sec p{margin:0 0 10px}
+  .sec p:last-child{margin-bottom:0}
+  .sec b{color:var(--ink)}
+  .lead{font-size:17px;line-height:1.65}
+  .lead::first-letter{font-size:2.9em;float:left;line-height:.82;padding:4px 8px 0 0;
+    color:var(--accent);font-weight:600}
+  .pill{display:inline-block;font-family:ui-monospace,monospace;font-size:10px;
+    letter-spacing:.05em;padding:2px 8px;border-radius:20px;border:1px solid var(--line-strong);
+    color:var(--ink-soft);margin:2px 4px 2px 0}
+  .now{border-left:3px solid var(--accent)}
+  .caveat{max-width:760px;margin:6px auto 0;font-size:12.5px;color:var(--ink-soft);
+    text-align:center;font-style:italic}
+  .foot{margin-top:22px;text-align:center;color:var(--ink-soft);font-size:12px;
+    font-family:ui-monospace,monospace}
+  .foot .dot{color:var(--line-strong);margin:0 8px}
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Jyotish · Natal Rāśi (D-1) · Lahiri Ayanāṁśa</p>
+    <h1>San Diego Natal Chart</h1>
+    <p class="sub"><b>3 August 1998, Mon</b> · <b>1:03 PM PDT</b> · San Diego, CA (32.72°N, 117.16°W) · 20:03 UTC</p>
+  </header>
+
+  <div class="layout">
+    <div class="card">
+      <h2>Rāśi Chart <span>South Indian · houses from Lagna</span></h2>
+      <div class="chart">
+        <div class="cell"><span class="hn">6</span><span class="sgn">Pisces</span><div class="planets">
+          <span class="pl retro"><b>Ju</b><span class="badge">℞</span> <span class="d">03°45′</span></span></div></div>
+        <div class="cell"><span class="hn">7</span><span class="sgn">Aries</span><div class="planets">
+          <span class="pl"><b>Sa</b> <span class="d">09°40′</span></span></div></div>
+        <div class="cell"><span class="hn">8</span><span class="sgn">Taurus</span></div>
+        <div class="cell"><span class="hn">9</span><span class="sgn">Gemini</span><div class="planets">
+          <span class="pl"><b>Ma</b> <span class="d">25°07′</span></span>
+          <span class="pl"><b>Ve</b> <span class="d">24°32′</span></span></div></div>
+        <div class="cell"><span class="hn">5</span><span class="sgn">Aquarius</span><div class="planets">
+          <span class="pl retro"><b>Ke</b><span class="badge">℞</span> <span class="d">08°30′</span></span></div></div>
+        <div class="cell center" style="grid-column:2/4;grid-row:2/4"><div class="centerlogo">Tulā Lagna
+          <small>Asc 14°50′ Libra · Swati 3</small></div></div>
+        <div class="cell"><span class="hn">10</span><span class="sgn">Cancer</span><div class="planets">
+          <span class="pl"><b>Su</b> <span class="d">17°26′</span></span></div></div>
+        <div class="cell"><span class="hn">4</span><span class="sgn">Capricorn</span></div>
+        <div class="cell"><span class="hn">11</span><span class="sgn">Leo</span><div class="planets">
+          <span class="pl retro"><b>Me</b><span class="badge">℞</span> <span class="d">03°49′</span></span>
+          <span class="pl retro"><b>Ra</b><span class="badge">℞</span> <span class="d">08°30′</span></span></div></div>
+        <div class="cell"><span class="hn">3</span><span class="sgn">Sagittarius</span></div>
+        <div class="cell"><span class="hn">2</span><span class="sgn">Scorpio</span><div class="planets">
+          <span class="pl"><b>Mo</b> <span class="d">24°52′</span></span></div></div>
+        <div class="cell lagna"><span class="hn">1</span><span class="sgn">Libra</span><div class="planets">
+          <span class="pl asc"><b>La</b> <span class="d">14°50′</span></span></div></div>
+        <div class="cell"><span class="hn">12</span><span class="sgn">Virgo</span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Grahas <span>Sidereal</span></h2>
+      <table>
+        <thead><tr><th>Planet</th><th>Sign</th><th>Deg</th><th>Ho.</th><th>Nakshatra</th></tr></thead>
+        <tbody>
+          <tr><td>☉ Sun</td><td>Cancer</td><td class="num">17°26′</td><td class="h">10</td><td>Ashlesha 1</td></tr>
+          <tr><td>☾ Moon</td><td>Scorpio</td><td class="num">24°52′</td><td class="h">2</td><td>Jyeshtha 3</td></tr>
+          <tr><td>♂ Mars</td><td>Gemini</td><td class="num">25°07′</td><td class="h">9</td><td>Punarvasu 2</td></tr>
+          <tr><td>☿ Mercury <span class="rr">℞</span></td><td>Leo</td><td class="num">03°49′</td><td class="h">11</td><td>Magha 2</td></tr>
+          <tr><td>♃ Jupiter <span class="rr">℞</span></td><td>Pisces</td><td class="num">03°45′</td><td class="h">6</td><td>U. Bhadra. 1</td></tr>
+          <tr><td>♀ Venus</td><td>Gemini</td><td class="num">24°32′</td><td class="h">9</td><td>Punarvasu 2</td></tr>
+          <tr><td>♄ Saturn</td><td>Aries</td><td class="num">09°40′</td><td class="h">7</td><td>Ashwini 3</td></tr>
+          <tr><td>☊ Rahu <span class="rr">℞</span></td><td>Leo</td><td class="num">08°30′</td><td class="h">11</td><td>Magha 3</td></tr>
+          <tr><td>☋ Ketu <span class="rr">℞</span></td><td>Aquarius</td><td class="num">08°30′</td><td class="h">5</td><td>Shatabhisha 1</td></tr>
+          <tr><td>◐ Lagna</td><td>Libra</td><td class="num">14°50′</td><td class="h">1</td><td>Swati 3</td></tr>
+        </tbody>
+      </table>
+      <div style="margin-top:12px">
+        <span class="pill">Sun in 10th · digbala</span>
+        <span class="pill">Lagna-lord Venus in 9th</span>
+        <span class="pill">Rahu in 11th</span>
+        <span class="pill">Venus–Mars in 9th</span>
+        <span class="pill">Moon debilitated · Scorpio</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- READING -->
+  <div class="reading">
+    <h2>The Reading</h2>
+    <h1>What the chart is saying</h1>
+
+    <div class="sec">
+      <h3>The lens you see through <span class="tag">Libra Lagna · Swati</span></h3>
+      <p class="lead">Libra rises, so <b>Venus rules the whole chart</b> — and the very first nakshatra on the
+        horizon is Swati, the reed that bends in any wind without breaking. That combination reads as someone
+        wired for <b>balance, fairness, and relationship</b>: you weigh both sides almost reflexively, you're
+        drawn to beauty and design, and you'd rather negotiate than dominate. Swati adds a strong streak of
+        <b>independence and self-direction</b> underneath the diplomacy — you want to move freely and arrive at
+        things your own way.</p>
+      <p>The tension of a Libra ascendant is exactly there: the instinct to harmonize with others versus the
+        need to stand as your own person. Much of this chart is about learning to hold both.</p>
+    </div>
+
+    <div class="sec">
+      <h3>Public life &amp; ambition <span class="tag">Sun in the 10th · Rahu in the 11th</span></h3>
+      <p>The <b>Sun sits at the very top of the chart, in the 10th house of career</b> — its strongest possible
+        placement by direction (<i>digbala</i>). This is the mark of someone who is <b>meant to be visible</b>:
+        a drive toward recognition, leadership, and a public-facing role. As lord of the 11th (gains) placed in
+        the 10th, your income and status are tightly linked to your professional standing — you climb by being seen.</p>
+      <p>Reinforcing it, <b>Rahu and Mercury share the 11th house</b> of ambition, networks, and earnings. Rahu
+        here is a classic signature of <b>large aspirations and material gain through unconventional or
+        modern channels</b> — media, technology, big networks. Retrograde Mercury alongside makes the mind
+        inventive and a little contrarian: you think sideways, and it pays.</p>
+    </div>
+
+    <div class="sec">
+      <h3>Fortune, learning &amp; love <span class="tag">Venus + Mars in the 9th</span></h3>
+      <p>Your <b>ascendant lord, Venus, is beautifully placed in the 9th house</b> — dharma, higher learning,
+        travel, philosophy, luck. When the lord of the chart occupies the house of fortune, life tends to
+        <b>open doors through belief, mentors, and journeys</b>. There's a genuine pull toward foreign places,
+        teachers, and the big questions.</p>
+      <p>But Venus is <b>conjunct Mars</b> here, and that colours your relationships vividly. Attractions run
+        <b>intense and fast</b>; there's magnetism and creative fire, but also friction — passion that needs a
+        channel. In the 9th, love and worldview intertwine: you're drawn to partners who expand your horizons,
+        who feel like an adventure or a philosophy as much as a romance.</p>
+    </div>
+
+    <div class="sec">
+      <h3>Inner weather <span class="tag">Moon in Scorpio · Jyeshtha</span></h3>
+      <p>Emotionally, the <b>Moon is in Scorpio — its sign of debilitation — in the 2nd house</b>, in the
+        nakshatra Jyeshtha, "the eldest." This is a deep, private, intense emotional nature. Feelings run
+        <b>strong and hidden</b>; you process at the bottom of the well, not on the surface, and you may have
+        felt emotionally responsible or "senior" from young. The gift of a debilitated Scorpio Moon is
+        <b>psychological depth and resilience</b> — an ability to survive, transform, and understand what
+        others hide. The work is not letting that depth curdle into secrecy or self-protection.</p>
+    </div>
+
+    <div class="sec">
+      <h3>Partnership &amp; discipline <span class="tag">Saturn in the 7th</span></h3>
+      <p><b>Saturn occupies the 7th house of partnership, in Aries</b> — a placement that asks for
+        <b>patience and maturity in relationships</b>. Commitment may arrive later, feel serious, or draw you
+        toward someone older or more grounded; early partnership can carry a lesson in responsibility. Because
+        Saturn's dispositor and its exaltation-lord (your own Venus) sit in a trine, the difficulty is
+        <b>substantially softened over time</b> — what starts heavy tends to mature into something stable and
+        real. Saturn rewards the long game here.</p>
+    </div>
+
+    <div class="sec">
+      <h3>The soul's axis <span class="tag">Ketu 5th · Jupiter 6th</span></h3>
+      <p><b>Ketu in the 5th</b> (Aquarius, Shatabhisha) points to an <b>unconventional, almost mystical
+        relationship to creativity, romance, and children</b> — a pull toward research, healing, the esoteric,
+        and away from conventional self-display. Meanwhile <b>Jupiter, retrograde in its own sign Pisces, sits
+        in the 6th</b>: great inner wisdom turned toward <b>service, health, and overcoming obstacles</b>. Own-sign
+        Jupiter in the 6th is quietly protective — you tend to <b>outlast your problems and your competition</b>.</p>
+    </div>
+
+    <div class="sec now">
+      <h3>Where you are now <span class="tag">Venus Mahādaśā · 2012–2032</span></h3>
+      <p>You're in the middle of a long <b>Venus major period</b> — and Venus is your <b>chart ruler, sitting in
+        the house of fortune</b>. This is, on paper, one of the more supportive 20-year stretches in the whole
+        sequence: favourable for <b>relationships, creativity, aesthetics, travel, higher study, and prosperity</b>.
+        It runs until <b>February 2032</b>, after which a 6-year Sun period turns the emphasis back toward career,
+        authority, and visibility (fitting, given that 10th-house Sun). The Venus years are the time to build
+        the relationships and the body of work you want to be known for.</p>
+    </div>
+
+    <p class="caveat">A jyotish reading is an interpretive lens, not a forecast — take what's useful, hold the rest lightly.
+      The Ascendant depends on an exact birth time; if 1:03 PM is approximate, the house framework is the part worth double-checking.</p>
+  </div>
+
+  <p class="foot">Swiss Ephemeris <span class="dot">·</span> Lahiri ayanāṁśa 23°50′
+    <span class="dot">·</span> mean node <span class="dot">·</span> San Diego PDT (UTC−7)</p>
+</div>
