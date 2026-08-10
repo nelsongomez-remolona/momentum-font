@@ -1,0 +1,149 @@
+<title>New Zealand · Natal Chart · Oct 28 1996</title>
+<style>
+  :root{
+    --bg:#f3ecdd;--panel:#fbf6ea;--ink:#241a10;--ink-soft:#6a5a44;
+    --line:#d8c6a4;--line-strong:#b79a68;--accent:#9a2b1e;--gold:#b8862e;
+    --retro:#9a2b1e;--asc:#146356;--grid-cell:#f7efdd;--grid-center:#efe4cb;
+    --shadow:0 1px 0 rgba(120,90,40,.15);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#12100c;--panel:#1c1813;--ink:#efe6d3;--ink-soft:#a99a7f;
+      --line:#3a3226;--line-strong:#5a4c34;--accent:#e8735f;--gold:#e0b155;
+      --retro:#e8735f;--asc:#4fb8a4;--grid-cell:#1f1a13;--grid-center:#171310;
+      --shadow:0 1px 0 rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12100c;--panel:#1c1813;--ink:#efe6d3;--ink-soft:#a99a7f;
+    --line:#3a3226;--line-strong:#5a4c34;--accent:#e8735f;--gold:#e0b155;
+    --retro:#e8735f;--asc:#4fb8a4;--grid-cell:#1f1a13;--grid-center:#171310;
+    --shadow:0 1px 0 rgba(0,0,0,.4);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    line-height:1.5;-webkit-font-smoothing:antialiased;padding:clamp(16px,4vw,48px)}
+  .wrap{max-width:940px;margin:0 auto}
+  header{text-align:center;margin-bottom:28px}
+  .eyebrow{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;
+    letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+  h1{font-size:clamp(26px,4.4vw,40px);margin:0;font-weight:600;text-wrap:balance}
+  .sub{color:var(--ink-soft);margin:8px 0 0;font-size:15px}
+  .sub b{color:var(--ink);font-weight:600}
+  .layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:26px;
+    align-items:start;margin-top:8px}
+  @media (max-width:720px){.layout{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:6px;
+    padding:18px 18px 20px;box-shadow:var(--shadow)}
+  .card h2{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 14px;
+    font-weight:600;display:flex;justify-content:space-between;align-items:baseline}
+  .card h2 span{color:var(--gold);letter-spacing:.12em}
+  .chart{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(4,1fr);
+    border:2px solid var(--line-strong);aspect-ratio:1/1;background:var(--line-strong)}
+  .cell{background:var(--grid-cell);border:.5px solid var(--line);padding:5px 6px;
+    position:relative;overflow:hidden;display:flex;flex-direction:column;gap:2px;min-width:0}
+  .cell.lagna{background:color-mix(in srgb,var(--asc) 14%,var(--grid-cell))}
+  .cell.center{background:var(--grid-center);align-items:center;justify-content:center;
+    text-align:center;border:none}
+  .cell .sgn{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:.06em;
+    color:var(--ink-soft);text-transform:uppercase;position:absolute;top:4px;right:6px}
+  .cell .planets{display:flex;flex-wrap:wrap;gap:3px 6px;margin-top:14px;align-content:flex-start}
+  .pl{font-size:13px;white-space:nowrap;line-height:1.15}
+  .pl b{font-weight:600}
+  .pl .d{font-size:9.5px;color:var(--ink-soft);font-family:ui-monospace,monospace}
+  .pl.retro b{color:var(--retro)}
+  .pl.asc b{color:var(--asc)}
+  .badge{font-size:8px;font-family:ui-monospace,monospace;color:var(--retro);vertical-align:super}
+  .centerlogo{color:var(--gold);font-size:12px;letter-spacing:.18em;
+    font-family:ui-monospace,monospace;text-transform:uppercase;line-height:1.9}
+  .centerlogo small{display:block;color:var(--asc);font-size:9px;letter-spacing:.06em;margin-top:6px}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th,td{text-align:left;padding:6px 4px;border-bottom:1px solid var(--line)}
+  th{font-family:ui-monospace,monospace;font-size:9.5px;letter-spacing:.12em;
+     text-transform:uppercase;color:var(--ink-soft);font-weight:600}
+  td.num{font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums;
+     white-space:nowrap;font-size:12px}
+  .rr{color:var(--retro);font-family:ui-monospace,monospace;font-size:10px}
+  tr:last-child td{border-bottom:none}
+  .dasha{margin-top:26px}
+  .drow{display:grid;grid-template-columns:96px 1fr auto;gap:12px;align-items:center;
+    padding:7px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+  .drow:last-child{border-bottom:none}
+  .drow .lord{font-weight:600}
+  .drow .bar{height:6px;border-radius:3px;background:var(--line)}
+  .drow.now{background:linear-gradient(90deg,color-mix(in srgb,var(--accent) 10%,transparent),transparent);
+    border-radius:4px;padding-left:6px;margin-left:-6px}
+  .drow.now .lord{color:var(--accent)}
+  .yrs{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-soft);
+    font-variant-numeric:tabular-nums}
+  .now-tag{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:.1em;
+    color:var(--accent);text-transform:uppercase}
+  .flag{max-width:760px;margin:22px auto 0;padding:11px 16px;font-size:13px;
+    color:var(--ink-soft);background:var(--panel);border:1px solid var(--line);
+    border-left:3px solid var(--asc);border-radius:6px}
+  .flag b{color:var(--ink)}
+  .foot{margin-top:26px;text-align:center;color:var(--ink-soft);font-size:12px;
+    font-family:ui-monospace,monospace}
+  .foot .dot{color:var(--line-strong);margin:0 8px}
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Jyotish · Natal Rāśi (D-1) · Lahiri Ayanāṁśa</p>
+    <h1>Auckland &middot; Relocated</h1>
+    <p class="sub"><b>27 October 1996, Sun</b> · <b>7:24 PM NZDT</b> · Auckland, NZ (36.85°S, 174.76°E) · 06:24 UTC</p>
+  </header>
+  <div class="layout">
+    <div class="card">
+      <h2>Rāśi Chart <span>South Indian</span></h2>
+      <div class="chart">
+        <div class="cell"><span class="sgn">Pisces</span><div class="planets"><span class="pl retro"><b>Sa</b><span class="badge">℞</span> <span class="d">07°58′</span></span><span class="pl retro"><b>Ke</b><span class="badge">℞</span> <span class="d">12°43′</span></span></div></div>
+        <div class="cell lagna"><span class="sgn">Aries</span><div class="planets"><span class="pl asc"><b>La</b> <span class="d">06°11′</span></span><span class="pl"><b>Mo</b> <span class="d">18°50′</span></span></div></div>
+        <div class="cell"><span class="sgn">Taurus</span></div>
+        <div class="cell"><span class="sgn">Gemini</span></div>
+        <div class="cell"><span class="sgn">Aquarius</span></div>
+        <div class="cell center" style="grid-column:2/4;grid-row:2/4"><div class="centerlogo">Meṣa Lagna<small>Asc 06°11′ Aries · Ashwini pada 2</small></div></div>
+        <div class="cell"><span class="sgn">Cancer</span></div>
+        <div class="cell"><span class="sgn">Capricorn</span></div>
+        <div class="cell"><span class="sgn">Leo</span><div class="planets"><span class="pl"><b>Ma</b> <span class="d">04°29′</span></span></div></div>
+        <div class="cell"><span class="sgn">Sagittarius</span><div class="planets"><span class="pl"><b>Ju</b> <span class="d">18°16′</span></span></div></div>
+        <div class="cell"><span class="sgn">Scorpio</span></div>
+        <div class="cell"><span class="sgn">Libra</span><div class="planets"><span class="pl"><b>Su</b> <span class="d">10°18′</span></span><span class="pl"><b>Me</b> <span class="d">06°33′</span></span></div></div>
+        <div class="cell"><span class="sgn">Virgo</span><div class="planets"><span class="pl"><b>Ve</b> <span class="d">03°29′</span></span><span class="pl retro"><b>Ra</b><span class="badge">℞</span> <span class="d">12°43′</span></span></div></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Grahas <span>Sidereal</span></h2>
+      <table>
+        <thead><tr><th>Planet</th><th>Sign</th><th>Degree</th><th>Nakshatra · Pada</th></tr></thead>
+        <tbody>
+          <tr><td>☉ Sun</td><td>Libra</td><td class="num">10°18′</td><td>Swati · 2</td></tr>
+          <tr><td>☾ Moon</td><td>Aries</td><td class="num">18°50′</td><td>Bharani · 2</td></tr>
+          <tr><td>♂ Mars</td><td>Leo</td><td class="num">04°29′</td><td>Magha · 2</td></tr>
+          <tr><td>☿ Mercury</td><td>Libra</td><td class="num">06°33′</td><td>Chitra · 4</td></tr>
+          <tr><td>♃ Jupiter</td><td>Sagittarius</td><td class="num">18°16′</td><td>P. Ashadha · 2</td></tr>
+          <tr><td>♀ Venus</td><td>Virgo</td><td class="num">03°29′</td><td>U. Phalguni · 3</td></tr>
+          <tr><td>♄ Saturn <span class="rr">℞</span></td><td>Pisces</td><td class="num">07°58′</td><td>U. Bhadrapada · 2</td></tr>
+          <tr><td>☊ Rahu <span class="rr">℞</span></td><td>Virgo</td><td class="num">12°43′</td><td>Hasta · 1</td></tr>
+          <tr><td>☋ Ketu <span class="rr">℞</span></td><td>Pisces</td><td class="num">12°43′</td><td>U. Bhadrapada · 3</td></tr>
+          <tr><td>◐ Asc</td><td>Aries</td><td class="num">06°11′</td><td>Ashwini · 2</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="card dasha">
+    <h2>Vimśottarī Mahādaśā <span>Moon in Bharani → Venus</span></h2>
+    <div class="drow"><span class="lord">Venus</span><span class="bar"></span><span class="yrs">1988 – 2008</span></div>
+    <div class="drow"><span class="lord">Sun</span><span class="bar"></span><span class="yrs">2008 – 2014</span></div>
+    <div class="drow"><span class="lord">Moon</span><span class="bar"></span><span class="yrs">2014 – 2024</span></div>
+    <div class="drow now"><span class="lord">Mars</span><span class="bar"></span><span class="yrs">2024 – 2031 <span class="now-tag">● current</span></span></div>
+    <div class="drow"><span class="lord">Rahu</span><span class="bar"></span><span class="yrs">2031 – 2049</span></div>
+    <div class="drow"><span class="lord">Jupiter</span><span class="bar"></span><span class="yrs">2049 – 2065</span></div>
+    <div class="drow"><span class="lord">Saturn</span><span class="bar"></span><span class="yrs">2065 – 2082</span></div>
+  </div>
+  <p class="flag"><b>Same moment, opposite side of Earth:</b> New Zealand was already on summer time (NZDT, UTC+13), so the SF birth instant (06:24 UTC) is <b>7:24 PM the same evening</b> in Auckland — nearly antipodal to San Francisco. Being ~half the globe east swings the Lagna all the way to <b>Aries 06°11′</b>, with the Moon rising in the 1st house. The planets never moved.</p>
+  <p class="foot">Swiss Ephemeris <span class="dot">·</span> Lahiri ayanāṁśa 23°49′
+    <span class="dot">·</span> mean node <span class="dot">·</span> same instant as SF (06:24 UTC)</p>
+</div>
